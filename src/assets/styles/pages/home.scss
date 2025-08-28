@@ -1,0 +1,49 @@
+.home {
+    .logo-wrapper {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    .circle-text {
+        width: 100%;
+        height: 100%;
+        font-size: 21px;
+        font-family: var(--font-family);
+        fill: #fff;
+        animation: rotateText 10s linear infinite;
+    }
+
+    @keyframes rotateText {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .glow-red:hover {
+        color: #f43f5e;
+         text-shadow: 0 0 10px #f43f5e, 0 0 20px #f43f5e, 0 0 40px #f43f5e;
+    }
+
+    .glow-blue:hover {
+        color: #3b82f6;
+         text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 40px #3b82f6;
+    }
+
+
+}

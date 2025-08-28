@@ -1,0 +1,9 @@
+@import "./utils/variables";
+@import "./themes/dark-light.scss";
+@import "./pages/home.scss";
+@import "./layout/mouse.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
