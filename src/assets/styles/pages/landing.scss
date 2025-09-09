@@ -1,0 +1,81 @@
+.home {
+  .logo-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .glow {
+    text-shadow: 0 0 10px #e9668e, 0 0 20px #e9668e;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .circle-text {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    font-family: var(--font-family);
+    fill: #fff;
+    animation: rotateText 10s linear infinite;
+  }
+
+  @keyframes rotateText {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .glow-red:hover {
+    color: #f43f5e;
+    text-shadow: 0 0 10px #f43f5e, 0 0 20px #f43f5e, 0 0 40px #f43f5e;
+  }
+
+  .glow-blue:hover {
+    color: #3b82f6;
+    text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 40px #3b82f6;
+  }
+
+  .shine {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0) 100%);
+    transform: skewX(-25deg);
+    pointer-events: none;
+    transition: none;
+  }
+
+  a:hover .shine {
+    animation: shine 1s forwards;
+  }
+
+  @keyframes shine {
+    0% {
+      left: -75%;
+    }
+
+    100% {
+      left: 125%;
+    }
+  }
+
+}
