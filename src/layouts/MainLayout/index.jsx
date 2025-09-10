@@ -1,10 +1,14 @@
 import CustomCursor from "../../components/CustomCursor";
 import { Outlet } from "react-router-dom";
-
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 export default function MainLayout() {
   return (
-    <div className="relative">
-      <Outlet /> 
+    <div className="relative !mx-auto ">
+      <Navbar />
+      <span className="mt-[7rem] flex items-center justify-center !mx-auto">
+        <Outlet />
+      </span>
       <CustomCursor />
       <img
         sizes="100vw"
@@ -19,6 +23,7 @@ export default function MainLayout() {
         loading="lazy"
         className=" fixed object-cover lg:w-[70%] inset-0 lg:top-[-5rem] -z-50 top-0 w-full"
       />
+      <Footer />
     </div>
   );
 }
