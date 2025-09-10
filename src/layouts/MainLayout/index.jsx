@@ -17,7 +17,7 @@ export default function MainLayout() {
         alt=""
         src="https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5605_light-left.webp"
         loading="lazy"
-        className="absolute object-cover lg:w-[70%] inset-0 lg:top-[-5rem] -z-50 top-0 w-full"
+        className=" fixed object-cover lg:w-[70%] inset-0 lg:top-[-5rem] -z-50 top-0 w-full"
       />
     </div>
   );

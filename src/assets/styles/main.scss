@@ -1,10 +1,20 @@
-@import "./utils/variables";
+//theme
 @import "./themes/dark-light.scss";
-@import "./pages/landing.scss";
+
+// utils
+@import "./utils/shared.scss";
+@import "./utils/variables";
+
+// layouts
+@import "./layout/font.scss";
 @import "./layout/mouse.scss";
+
+// components
+@import "./pages/landing.scss";
 @import "./components/MusicPlayerButton.scss";
 @import "./components/TextType.scss";
 
+// TailwindCSS
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

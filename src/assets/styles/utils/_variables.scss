@@ -9,7 +9,7 @@ $font-family: 'Inter', sans-serif;
   --bg: #{$primary-color-dark};    
   --text: #{$secondary-color};     
   --surface: #080f1f;             
-  --font: #{$font-family};
+  --font-family: #{$font-family};
   --mouse:#{$primary-color-light};
 }
 
@@ -17,7 +17,7 @@ $font-family: 'Inter', sans-serif;
   --bg: #{$primary-color-light};    
   --text: #080f1f;                 
   --surface: #{$secondary-color};  
-  --font: #{$font-family};
+  --font-family: #{$font-family};
   --mouse:#{$primary-color-dark};
 
 }
