@@ -15,7 +15,7 @@ function App() {
         </Route>
 
         <Route element={<MainLayout />}>
-          <Route path="/khathibaoduyen" element={<Home />} />
+          <Route path="/kha-thi-bao-duyen" element={<Home />} />
           <Route path="/ve-toi" element={<About />} />
           <Route path="/ky-nang" element={<div>Kỹ năng</div>} />
           <Route path="/du-an" element={<div>Dự án</div>} />

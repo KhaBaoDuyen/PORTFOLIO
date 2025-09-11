@@ -8,10 +8,14 @@ export default function OverView({ total = "20", title = "Tín chỉ", context =
       lg:w-[18rem] lg:h-[16rem]
       w-[20rem] h-auto gap-5
       flex flex-col  justify-between
+      lg:hover:scale-[1.02] transition-all duration-300  
+      hover:shadow-lg hover:shadow-pink-500/20
+      hover:translate-y-[-5px]
     ">
-        <h1 className="lg:text-7xl text-6xl">{total}</h1>
+        <h1 className="lg:text-7xl text-6xl hover:scale-[1.03] 
+        hover:translate-y-[2px]">{total}</h1>
         <div className="flex flex-col gap-3">
-            <h3 className="text-3xl line-clamp-1">{title}</h3>
+            <h3 className="text-3xl line-clamp-1 hover:translate-y-[2px]">{title}</h3>
             <p className="text-gray-400 text-md line-clamp-2">{context}</p>
         </div>
 

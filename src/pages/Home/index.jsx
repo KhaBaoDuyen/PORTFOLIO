@@ -6,7 +6,11 @@ import { FaReact, FaAngular, FaGithub, FaGitAlt, FaNodeJs } from "react-icons/fa
 import { SiNextdotjs, SiSvelte, SiTailwindcss, SiTypescript, SiFigma } from "react-icons/si";
 import { CardProject1, CardProject2, CardProject0 } from "../../components/CardSwap";
 import OverView from "../../components/Overview";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 export default function Home() {
+    const animationDuration = '2s';
     return <div className=" mx-auto">
         <section className="custom-section p-3 gap-8 ">
             <Heading text="Bắt đầu khám phá" />
@@ -24,9 +28,13 @@ export default function Home() {
                 Đam mê tạo ra những trải nghiệm số hiện đại, trực quan và hiệu quả.
                 Tôi chuyên thiết kế giao diện người dùng, xây dựng website tối ưu hiệu suất và luôn hướng tới sự sáng tạo trong từng dự án.
             </p>
-            <button className="custom-button">
-                Xem portfolio
+            <button
+                onClick={() => {
+                    document.getElementById("ketqua")?.scrollIntoView({ behavior: "smooth" });
+                }} className="custom-button animate-fade-in-up"  >
+                Xem chi tiết
             </button>
+
 
             <img
                 src="/images/home/bg-sec1.png"
@@ -35,7 +43,12 @@ export default function Home() {
             />
         </section>
 
-        <section className="custom-section p-3 gap-7 ">
+        <motion.div
+            initial={{ opacity: 0, y: 200 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="custom-section p-3 gap-7 ">
             <Heading text="Công nghệ sử dụng" />
             <div className="flex flex-wrap justify-center gap-5 pb-[8vw]">
                 <BrandButton icon={<FaReact size={20} />} text="React" />
@@ -49,9 +62,14 @@ export default function Home() {
                 <BrandButton icon={<SiTypescript size={20} />} text="TypeScript" />
                 <BrandButton icon={<SiFigma size={20} />} text="Figma" />
             </div>
-        </section>
+        </motion.div>
 
-        <section className="custom-section gap-7 p-3 ">
+        <motion.div
+            initial={{ opacity: 0, y: 200 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            id="ketqua" className="custom-section gap-7 p-3 ">
             <Heading text="Dự án nổi bật" />
             <div className="">
                 <h1 className="text-2xl lg:text-5xl mx-auto text-center lg:w-[60%]">Một số dự án tôi đã thực hiện trong quá trình học tập. </h1>
@@ -80,23 +98,44 @@ export default function Home() {
                      to meet your company's unique financial needs."/>
                 </div>
             </div>
+        </motion.div>
 
-        </section>
-
-        <section className="flex lg:flex-row lg:justify-between flex-col mt-[5vw] mx-auto items-center lg:p-8 container ">
-            <div className=" lg:ml-0 flex justify-start flex-col">
-                <span className="w-[20rem]"><Heading text="Kết quả học tập" left={false}/> </span>
-                 <p className="text-xl lg:text-4xl text-left ">
+        <section className="flex lg:flex-row lg:justify-between flex-col mt-[5rem] mx-auto items-center lg:p-8 container  " >
+           <div className="overflow-x-hidden">
+                  <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className=" lg:ml-0 flex justify-start flex-col ">
+                <span className="w-[20rem]"><Heading text="Kết quả học tập" left={false} /> </span>
+                <p className="text-xl lg:text-4xl text-left animate-shine text-[#dadadae8] bg-clip-text inline-block"
+                    style={{
+                        backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
+                        backgroundSize: '200% 100%',
+                        WebkitBackgroundClip: 'text',
+                        animationDuration: animationDuration,
+                    }}>
                     Một số thành tích tôi đã đạt được trong quá trình học tập.
                 </p>
+            </motion.div>
+           </div>
+      
+
+            <div className="overflow-x-hidden w-[20rem] lg:min-w-[50%] p-3">
+                <motion.div
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    className=" grid lg:grid-cols-2 justify-items-center grid-cols-1 gap-4 mt-10">
+                    <OverView total="20" title="Tín chỉ" context="Đã hoàn thành trong quá trình học tập" />
+                    <OverView total="3.8" title="GPA" context="Điểm trung bình tích lũy" />
+                    <OverView total="5" title="Dự án" context="Đã hoàn thành trong quá trình học tập" />
+                    <OverView total="2" title="Chứng chỉ" context="Đạt được trong quá trình học tập" />
+                </motion.div>
             </div>
 
-            <div className="min-w-[50%] grid lg:grid-cols-2 justify-items-center grid-cols-1 gap-5 mt-10">
-                <OverView total="20" title="Tín chỉ" context="Đã hoàn thành trong quá trình học tập" />
-                <OverView total="3.8" title="GPA" context="Điểm trung bình tích lũy" />
-                <OverView total="5" title="Dự án" context="Đã hoàn thành trong quá trình học tập" />
-                <OverView total="2" title="Chứng chỉ" context="Đạt được trong quá trình học tập" />
-            </div>
         </section>
 
 
