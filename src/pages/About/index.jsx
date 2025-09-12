@@ -23,7 +23,7 @@ export default function About() {
         return () => window.removeEventListener("resize", checkScreen);
     }, []);
 
-    return <div>
+    return <div className="p-3">
         <div className="!mx-auto text-center custom-section p-3 flex flex-col gap-3">
             <h1 className="text-6xl !text-bold">
                 Về tôi
@@ -87,7 +87,7 @@ export default function About() {
                 </motion.div>
             </div>
 
-            <div className="group before:hover:scale-95 before:hover:h-72 before:hover:w-80 
+            <div className="group before:hover:scale-95 lg:block hidden before:hover:h-72 before:hover:w-80 
             before:hover:h-44 before:hover:rounded-b-2xl
              before:transition-all before:duration-500 before:content-[''] 
              before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl

@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Credit from "./pages/Credit";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 
 import MainLayout from "./layouts/MainLayout";
 import PlainLayout from "./layouts/PlainLayout";
@@ -23,7 +24,7 @@ function App() {
           <Route path="/ky-nang" element={<Skills/>} />
           <Route path="/du-an" element={<div>Dự án</div>} />
           <Route path="/chung-chi" element={<Credit/>} />
-          <Route path="/lien-he" element={<div>Liên hệ</div>} />
+          <Route path="/lien-he" element={<Contact/>} />
         </Route>
 
       </Routes>

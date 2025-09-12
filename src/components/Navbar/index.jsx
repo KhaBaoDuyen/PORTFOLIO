@@ -71,7 +71,7 @@ export default function Navbar() {
           className={`absolute top-full right-2 mt-1 w-[95%] rounded-xl overflow-hidden 
   transform transition-all duration-300 ease-in-out
   ${isOpen ? "opacity-100 translate-y-0 scale-100" : "opacity-0 -translate-y-4 scale-95 pointer-events-none"}
-  ${scrolled ? "bg-black/80 border border-white/20 backdrop-blur-md" : "bg-black/60 border border-white/10"}
+  ${scrolled ? "bg-black/90 border border-white/20 backdrop-blur-md" : "bg-black/90 border border-white/10"}
   `}
         >
 
