@@ -65,14 +65,12 @@ export default function Landing() {
           <img src="/images/home/logo-dark.png" alt="" className="w-6 lg:w-8" />
         </Link>
 
-
-
         <BackgroundMusic ref={musicRef} />
         <MusicButton audioRef={musicRef} />
 
         <div className="absolute bottom-[2rem] lg:bottom-[1rem] right-[2rem] lg:right-[20rem] text-left">
           <Link
-          to="/khathibaoduyen"
+          to="/kha-thi-bao-duyen"
           className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
             <span className="relative z-10">
               <ShinyText
