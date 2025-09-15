@@ -20,7 +20,7 @@ export function CardProject1({ title, img, context }) {
       className="border-[0.0625rem] border-gray-300/30
       rounded-tl-3xl max-h-[75%] "/>
     <h3 className="lg:text-3xl text-xl text-center">{title}</h3>
-    <p className="text-gray-400 text-center text-md line-clamp-1 lg:line-clamp-3">{context}</p>
+    <p className="text-gray-400 text-center text-md line-clamp-1 lg:line-clamp-2 px-2">{context}</p>
   </div>
 }
 export function CardProject2({ title, img, context }) {
@@ -42,7 +42,7 @@ export function CardProject2({ title, img, context }) {
     "
   >
     <h3 className="lg:text-3xl text-2xl text-center">{title}</h3>
-    <p className="text-gray-400 text-center text-md line-clamp-2">{context}</p>
+    <p className="text-gray-400 text-center text-md line-clamp-2 ">{context}</p>
     <img src={img} alt=""
       className="border-[0.0625rem] border-gray-300/30
       rounded-t-3xl  min-h-[60%] "/>

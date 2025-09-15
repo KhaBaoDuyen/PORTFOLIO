@@ -77,20 +77,25 @@ export default function Home() {
 
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 justify-items-center mt-10">
                     <CardProject1
-                        title="Dự án tốt nghiệp"
+                        title="Đặt vé xe tích hợp bản đồ"
                         img="/images/home/duantotnghiep.jpg"
-                        context="Create your account in minutes and tailor the platform
-                     to meet your company's unique financial needs."/>
+                        context="Ứng dụng đặt vé xe bus tích hợp bản đồ định vị (Mapbox), chọn điểm đón/trả, 
+                        xem lộ trình và thời gian dự kiến."
+                    />
+
                     <CardProject2
-                        title="Dự án tốt nghiệp"
+                        title="Dự án PHP1 - Website TMĐT tích hợp đăng nhập MXH"
                         img="/images/home/duantotnghiep.jpg"
-                        context="Create your account in minutes and tailor the platform
-                     to meet your company's unique financial needs."/>
+                        context="Dự án Website về đề tài TMĐT hiện đại và tiện lợi, cho phép người 
+                        dùng trải nghiệm mua sắm trực tuyến một cách dễ dàng."
+                    />
+
+
                     <CardProject2
-                        title="Dự án tốt nghiệp"
+                        title="Xây dựng hệ thống Bán vé xe"
                         img="/images/home/duantotnghiep.jpg"
-                        context="Create your account in minutes and tailor the platform
-                     to meet your company's unique financial needs."/>
+                        context="Dự án Website về đề tài đặt vé xe khách theo tuyến đường, 
+                        cho phép người dùng đặt vé xe thanh toán online."/>
                     <CardProject1
                         title="Dự án tốt nghiệp"
                         img="/images/home/duantotnghiep.jpg"
@@ -101,26 +106,26 @@ export default function Home() {
         </motion.div>
 
         <section className="flex lg:flex-row lg:justify-between flex-col mt-[5rem] mx-auto items-center lg:p-8 container  " >
-           <div className="overflow-x-hidden">
-                  <motion.div
-                initial={{ opacity: 0, x: 100 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-                className=" lg:ml-0 flex justify-start flex-col ">
-                <span className="w-[20rem]"><Heading text="Kết quả học tập" left={false} /> </span>
-                <p className="text-xl lg:text-4xl text-left animate-shine text-[#dadadae8] bg-clip-text inline-block"
-                    style={{
-                        backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
-                        backgroundSize: '200% 100%',
-                        WebkitBackgroundClip: 'text',
-                        animationDuration: animationDuration,
-                    }}>
-                    Một số thành tích tôi đã đạt được trong quá trình học tập.
-                </p>
-            </motion.div>
-           </div>
-      
+            <div className="overflow-x-hidden">
+                <motion.div
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    className=" lg:ml-0 flex justify-start flex-col ">
+                    <span className="w-[20rem]"><Heading text="Kết quả học tập" left={false} /> </span>
+                    <p className="text-xl lg:text-4xl text-left animate-shine text-[#dadadae8] bg-clip-text inline-block"
+                        style={{
+                            backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
+                            backgroundSize: '200% 100%',
+                            WebkitBackgroundClip: 'text',
+                            animationDuration: animationDuration,
+                        }}>
+                        Một số thành tích tôi đã đạt được trong quá trình học tập.
+                    </p>
+                </motion.div>
+            </div>
+
 
             <div className="overflow-x-hidden w-[20rem] lg:min-w-[50%] p-3">
                 <motion.div
@@ -129,10 +134,10 @@ export default function Home() {
                     viewport={{ once: false }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className=" grid lg:grid-cols-2 justify-items-center grid-cols-1 gap-4 mt-10">
-                    <OverView total="20" title="Tín chỉ" context="Đã hoàn thành trong quá trình học tập" />
-                    <OverView total="3.8" title="GPA" context="Điểm trung bình tích lũy" />
-                    <OverView total="5" title="Dự án" context="Đã hoàn thành trong quá trình học tập" />
-                    <OverView total="2" title="Chứng chỉ" context="Đạt được trong quá trình học tập" />
+                    <OverView total="9" title="Tín chỉ" context="Đã đạt được thông qua các dự án trong quá trình học tập" />
+                    <OverView total="3.75" title="GPA" context="Điểm trung bình tích lũy trong quá trình học tập." />
+                    <OverView total="16" title="Dự án" context="Đã hoàn thành đã thực hiện trong quá trình học tập" />
+                    <OverView total="1.3" title="Năm" context="Số năm quá trình bắt đầu thựce hiện các dự án." />
                 </motion.div>
             </div>
 

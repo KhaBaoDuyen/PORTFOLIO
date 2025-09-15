@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
 import SkillItem from "../../components/Skills";
 import { FaReact, FaAngular, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiSass, SiTypescript, SiNextdotjs, SiMui } from "react-icons/si";
+import { SiTailwindcss, SiSass, SiTypescript, SiNextdotjs, SiMui, SiSvelte  } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress, SiNestjs, SiMysql, SiFirebase, SiPostman, SiFigma, SiWordpress, } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
@@ -132,6 +132,7 @@ export default function Skills() {
                     <SkillItem name="Angular" icon={<FaAngular />} iconPosition="left" />
                     <SkillItem name="Next.js" icon={<SiNextdotjs />} iconPosition="left" />
                     <SkillItem name="Material-UI" icon={<SiMui />} iconPosition="left" />
+                    <SkillItem name="SvelteJs" icon={<SiSvelte />} iconPosition="left" />
                 </div>
             </motion.div>
 

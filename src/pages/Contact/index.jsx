@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
     return (
-        <div className="flex flex-col lg:mt-[5rem] mt-[3rem] p-3 items-center justify-center">
+        <div className="flex flex-col lg:mt-[5rem]  mt-[3rem] p-3 items-center justify-center">
             <h1 className="lg:text-5xl text-2xl font-bold">
                 Liên Hệ
             </h1>
@@ -19,10 +19,10 @@ export default function Contact() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="bg-white/30 p-3 lg:mt-[3rem] mt-[1rem] lg:container  rounded-2xl">
+                className="bg-white/30 p-3  lg:mt-[3rem] mt-[1rem] lg:container  rounded-2xl">
                 <div className="bg-black/70 relative backdrop-blur-lg rounded-2xl overflow-hidden shadow-inner
-     lg:py-10 py-5 px-5 lg:px-20 grid lg:grid-cols-2 gap-10" >
-                    <img src="/images/logo/tiasang.webp" alt="" className="absolute bottom-0 -z-50" />
+     lg:py-10  py-5 px-5 lg:px-20 grid lg:grid-cols-2 gap-10 " >
+                    <img src="/images/logo/tiasang.webp" alt="" className="absolute lg:bottom-[-100%] bottom-0 -z-50" />
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Liên Hệ Với Chúng Tôi</h2>
                         <p className="text-gray-300 mb-6">
@@ -69,7 +69,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="bg-white p-3 lg:p-6 rounded-xl shadow-md">
+                    <div className="bg-white p-3 lg:py-10 lg:px-5 rounded-xl shadow-md">
                         <h3 className="text-xl text-pink-600 font-semibold mb-4">Gửi Tin Nhắn</h3>
                         <form className="space-y-4">
                             <input
