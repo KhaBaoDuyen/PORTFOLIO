@@ -51,8 +51,9 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
     const myTexture = useTexture(myTextureSrc);
     myTexture.wrapS = THREE.RepeatWrapping;
     myTexture.wrapT = THREE.RepeatWrapping;
-    myTexture.repeat.set(1.2, 1.2);   
-    myTexture.offset.set(0, 2);  
+    myTexture.flipY = false;
+    myTexture.repeat.set(1, 1.3);   
+    myTexture.offset.set(0, 0);  
     useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], 1]);
     useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], 1]);
     useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], 1]);
@@ -121,7 +122,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
                     <group
                         scale={2.25}
                         position={[0, -1.2, -0.05]}
-                         onPointerOver={() => hover(true)}
+                        onPointerOver={() => hover(true)}
                         onPointerOut={() => hover(false)}
                         onPointerUp={(e) => (e.target.releasePointerCapture(e.pointerId), drag(false))}
                         onPointerDown={(e) => (e.target.setPointerCapture(e.pointerId), drag(new THREE.Vector3().copy(e.point).sub(vec.copy(card.current.translation()))))}>

@@ -53,16 +53,16 @@ export default function Contact() {
                         <div className="mt-6">
                             <h3 className="font-semibold mb-3">Ứng dụng & Mạng xã hội:</h3>
                             <div className="flex gap-3">
-                                <Link to="https://www.facebook.com" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
+                                <Link to="https://www.facebook.com/kha.bao.duyen" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
                                     <FaFacebookF />
                                 </Link>
-                                <Link to="https://www.linkedin.com" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
+                                <Link to="https://www.linkedin.com/in/bao-duyen-kha-thi-41622736a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
                                     <FaLinkedinIn />
                                 </Link>
-                                <Link to="https://github.com" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
+                                <Link to="https://github.com/KhaBaoDuyen" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
                                     <FaGithub />
                                 </Link>
-                                <Link to="https://zalo.me" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
+                                <Link to="https://zalo.me/0337019197" target="_blank" className="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600">
                                     <SiZalo />
                                 </Link>
                             </div>

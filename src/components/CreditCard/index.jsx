@@ -8,7 +8,7 @@ export default function CreditCard({ date, title, tags = [], organization, image
     const [open, setOpen] = useState(false);
 
     return (
-        <>
+        <div className="basis-1/3 p-2">
             <div
                 className="bg-white/30 relative p-3 rounded-xl cursor-pointer
                 hover:scale-[1.02] transition transform duration-300 
@@ -71,6 +71,6 @@ export default function CreditCard({ date, title, tags = [], organization, image
                     </motion.div>
                 )}
             </AnimatePresence>
-        </>
+        </div>
     );
 }

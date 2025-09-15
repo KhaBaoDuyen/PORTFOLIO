@@ -84,23 +84,22 @@ export default function Home() {
                     />
 
                     <CardProject2
-                        title="Dự án PHP1 - Website TMĐT tích hợp đăng nhập MXH"
-                        img="/images/home/duantotnghiep.jpg"
-                        context="Dự án Website về đề tài TMĐT hiện đại và tiện lợi, cho phép người 
-                        dùng trải nghiệm mua sắm trực tuyến một cách dễ dàng."
+                        title="Hệ thống bán hàng phụ kiện máy tính trực tuyến"
+                        img="/images/home/duan2.jpg"
+                        context="Một nền tảng thương mại điện tử chuyên nghiệp, phục vụ nhu cầu mua sắm laptop của người dùng. 
+                         "
                     />
-
 
                     <CardProject2
                         title="Xây dựng hệ thống Bán vé xe"
-                        img="/images/home/duantotnghiep.jpg"
+                        img="/images/home/duan3.png"
                         context="Dự án Website về đề tài đặt vé xe khách theo tuyến đường, 
                         cho phép người dùng đặt vé xe thanh toán online."/>
+
                     <CardProject1
-                        title="Dự án tốt nghiệp"
+                        title="SmartBook – Đọc sách trực tuyến"
                         img="/images/home/duantotnghiep.jpg"
-                        context="Create your account in minutes and tailor the platform
-                     to meet your company's unique financial needs."/>
+                        context="Dự án SmartBook: ứng dụng web đọc sách online, hỗ trợ danh mục, tìm kiếm và đọc sách."/>
                 </div>
             </div>
         </motion.div>

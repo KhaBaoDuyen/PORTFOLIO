@@ -74,7 +74,7 @@ export default function Landing() {
           className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
             <span className="relative z-10">
               <ShinyText
-                text="Open to profile"
+                text="Chuyển đến hồ sơ"
                 disabled={false}
                 speed={3}
                 className="custom-class text-xl sm:text-2xl lg:text-3xl font-bold hover:text-white"
@@ -82,7 +82,7 @@ export default function Landing() {
 
             </span>
             <span className="flex flex-row items-center  ">
-              <span className="animate-bounce text-xs lg:text-sm">in CanTho, VietNam.</span>
+              <span className="animate-bounce text-xs lg:text-sm">ở CanTho, VietNam.</span>
               <svg
                 className="w-6 h-6 lg:w-8 lg:h-8 text-white animate-bounce"
                 fill="none"

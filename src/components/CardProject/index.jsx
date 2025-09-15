@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaGithub, FaLinkedin, FaTimes  } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-
+import projects from "../../data/project.json";
 export function CardProject({
     name = "Dự án tốt nghiệp",
     context = "Dự án được thực hiện",
     date,
     tags = [],
     images = [],
+    linkGit="",
+    linkLinked=""
 }) {
     const [current, setCurrent] = useState(0);
     const [direction, setDirection] = useState(0);
@@ -77,7 +79,7 @@ export function CardProject({
                         <div className="">
                             <h1 className="text-2xl font-bold mb-3 text-pink-400 lg:line-clamp-2 line-clamp-1">{name}</h1>
                             <p className="text-gray-300 mb-4 lg:line-clamp-4 line-clamp-2">{context}</p>
-                            {date && <p className="text-sm text-gray-400 mb-2">Ngày kết thúc: {date}</p>}
+                            {date && <p className="text-sm text-gray-400 mb-2">Thời gian: {date}</p>}
                             {tags.length > 0 && (
                                 <div className="flex flex-wrap gap-2">
                                     {tags.map((tag, i) => (
@@ -95,7 +97,7 @@ export function CardProject({
                         <div className="">
                             <div className="flex flex-row gap-3">
                                 <a
-                                    href="https://github.com/your-username"
+                                    href={linkGit}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-start p-2
@@ -113,7 +115,7 @@ export function CardProject({
                                     </span>
                                 </a>
                                 <a
-                                    href="https://github.com/your-username"
+                                    href={linkLinked}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-start p-2
@@ -190,8 +192,7 @@ export function CardProject({
                   <button
                     onClick={prevImage}
                     className="absolute left-5 top-1/2 -translate-y-1/2 
-                      w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-600 transition"
-                  >
+                      w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-600 transition">
                     <FaChevronLeft className="text-white text-2xl" />
                   </button>
                   <button
@@ -212,33 +213,6 @@ export function CardProject({
     );
 }
 
-const projects = [
-    {
-        id: 1,
-        name: "Website Bán Mỹ Phẩm",
-        context: "Xây dựng website thương mại điện tử bán mỹ phẩm.",
-        date: "2025",
-        tags: ["React", "Node.js", "MongoDB"],
-        images: ["/images/home/duantotnghiep.jpg", "/images/home/demo1.jpg"],
-    },
-    {
-        id: 2,
-        name: "App Quản Lý Tuyến Xe",
-        context: "Ứng dụng đặt vé và quản lý tuyến xe buýt.",
-        date: "2025",
-        tags: ["Angular", "Node.js", "MySQL"],
-        images: ["/images/home/duantotnghiep.jpg"],
-    },
-    {
-        id: 3,
-        name: "Portfolio Cá Nhân",
-        context: "Website giới thiệu bản thân và các dự án.",
-        date: "2024",
-        tags: ["Next.js", "TailwindCSS"],
-        images: ["/images/home/duantotnghiep.jpg", "/images/home/demo2.jpg"],
-    },
-];
-
 export function Projects() {
     return (
         <div className="grid grid-cols-1 w-full gap-6 lg:mt-[3rem] mt-[3rem]">
@@ -255,6 +229,8 @@ export function Projects() {
                         date={project.date}
                         tags={project.tags}
                         images={project.images}
+                        linkLinked={project.linkLinked}
+                        linkGit={project.linkGit}
                     />
                 </motion.div>
             ))}

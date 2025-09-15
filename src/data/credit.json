@@ -1,23 +1,55 @@
 [
-  {
-    "date": "13/12/2025",
-    "title": "Xây dựng Website quản lý tài nguyên WordPress cho sinh viên",
-    "tags": ["WordPress", "Quản lý tài nguyên"],
-    "organization": "FPT Polytechnic",
-    "image": "/images/TinChi/PC08750_6728983b8b061fcc21cc6eb0.jpg"
-  },
+
   {
     "date": "20/06/2025",
-    "title": "Phát triển ứng dụng React quản lý học tập",
-    "tags": ["React", "Frontend"],
+    "title": "Thiết kế giao diện UXUI cho website bán hàng thương mại điện tử",
+    "tags": ["Figma"],
     "organization": "FPT Polytechnic",
     "image": "/images/TinChi/PC08750_6728983b8b061fcc21cc6eb0.jpg"
   },
+
+
+
   {
-    "date": "05/05/2025",
-    "title": "Thiết kế API Node.js cho hệ thống bán vé xe",
-    "tags": ["Node.js", "API"],
+    "date": "26/04/2025",
+    "title": "Xây dựng Website đấu giá XBid",
+    "tags": ["Node.js", "Fontend", "Backend", "Angular"],
     "organization": "FPT Polytechnic",
-    "image": "/images/TinChi/PC08750_6728983b8b061fcc21cc6eb0.jpg"
+    "image": "/images/TinChi/PC08750_67d7d5e6d708a111d6deac01.jpg"
+  },
+  {
+    "date": "13/12/2024",
+    "title": "Xây dựng Website quản lý tài nguyên WordPress cho sinh viên",
+    "tags": ["PHP", "Frontend", "Backend"],
+    "organization": "FPT Polytechnic",
+    "image": "images/TinChi/PC08750_6729af808b061fcc21cffdea.jpg"
+  },
+  {
+    "date": "07/09/2024",
+    "title": "Xây dựng Website bán laptop tích hợp sản phẩm biến thể, sản phẩm mua kèm & thông số kỹ thuật sản phẩm.",
+    "tags": ["PHP", "Fontend"],
+    "organization": "FPT Polytechnic",
+    "image": "/images/TinChi/PC08750_66c2c7258b061fcc21ff1131.jpg"
+  },
+  {
+    "date": "23/08/2024",
+    "title": "Thiết kế website kinh doanh xe ô tô tích hợp chức năng tính phí trả góp",
+    "tags": ["WordPress", "Fontend"],
+    "organization": "FPT Polytechnic",
+    "image": "/images/TinChi/PC08750_66bcbbd38b061fcc21ee9410.jpg"
+  },
+  {
+    "date": "26/08/2024",
+    "title": "Xây dựng Hệ thống quản lý tải liệu tích hợp Google Drive API",
+    "tags": ["PHP", "Fontend"],
+    "organization": "FPT Polytechnic",
+    "image": " /images/TinChi/PC08750_66645f873fe05c6471d53cf6.jpg"
+  },
+  {
+    "date": "22/04/2024",
+    "title": "Website giối thiệu trường THPT",
+    "tags": ["Fontend", "HTML", "BOOSTRAP"],
+    "organization": "FPT Polytechnic",
+    "image": "/images/TinChi/PC08750_65f66c22672404a0f3e2dcaf (1).jpg"
   }
 ]

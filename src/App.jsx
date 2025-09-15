@@ -10,10 +10,12 @@ import Project from "./pages/Project";
 import MainLayout from "./layouts/MainLayout";
 import PlainLayout from "./layouts/PlainLayout";
 import LoadingWrapper from "./components/Loading";
+import {ScrollToTop} from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route element={<PlainLayout />}>
           <Route  index element={<Landing />} />

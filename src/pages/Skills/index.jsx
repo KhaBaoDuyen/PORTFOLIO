@@ -46,8 +46,8 @@ export default function Skills() {
                     dễ dàng mở rộng trong thực tế.</p>
                 <div className="flex flex-row gap-3">
                     <a
-                        href="https://github.com/your-username"
-                        target="_blank"
+                        href="https://github.com/KhaBaoDuyen"
+                        target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center justify-start p-2
                         h-12 w-12 hover:w-32 
@@ -64,7 +64,7 @@ export default function Skills() {
                         </span>
                     </a>
                     <a
-                        href="https://github.com/your-username"
+                        href="https://www.linkedin.com/in/bao-duyen-kha-thi-41622736a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-start p-2
@@ -82,7 +82,7 @@ export default function Skills() {
                         </span>
                     </a>
                     <a
-                        href="https://github.com/your-username"
+                        href="https://www.facebook.com/kha.bao.duyen"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-start p-2

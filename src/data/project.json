@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "name": "Xây dựng website hệ thống đặt vé xe bus tích hợp hệ thống bản đồ định vị.",
+        "context": " Dự án “Hệ thống đặt vé xe bus tích hợp bản đồ định vị”  xây dựng dưới dạng một website cho phép người dùng tra cứu các tuyến xe, lựa chọn điểm đón – điểm trả, đặt vé trực tuyến và theo dõi hành trình của xe thông qua bản đồ định vị.",
+        "date": "tháng 8 năm 2025",
+        "tags": [
+            "React",
+            "MySql",
+            "Filament",
+            "Mapbox",
+            "FrontEnd"
+        ],
+        "images": [
+            "/images/Project/1/image1.jpg",
+            "/images/Project/1/image2.jpg",
+            "/images/Project/1/images3.jpg",
+            "/images/Project/1/images4.jpg",
+            "/images/Project/1/image5.png",
+            "/images/Project/1/image6.png",
+            "/images/Project/1/7.png",
+            "/images/Project/1/images8.png",
+            "/images/Project/1/image9.png"
+        ],
+        "linkGit": "https://github.com/khiemdang111/DATN_SUMMER_2025/tree/main/resources/js",
+        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus-t%C3%ADch-h%E1%BB%A3p-b%E1%BA%A3n-%C4%91%E1%BB%93-kha-thi-apxae/?trackingId=Zz9L4BPVSR6NnFRp2K%2BTPg%3D%3D"
+    },
+    {
+        "id": 2,
+        "name": "Xây dựng hệ thống bán đồng hồ tích hợp xuất hóa đơn điện tử dạng PDF.",
+        "context": "Phát triển website thương mại điện tử chuyên bán đồng hồ, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến và tích hợp chức năng tự động xuất hóa đơn điện tử dạng PDF sau mỗi đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
+        "date": "tháng 8 năm 2025",
+        "tags": [
+            "Next.JS",
+            "Backend",
+            "FrontEnd",
+            "MySql"
+        ],
+        "images": [
+            "/images/Project/2/image1.jpg",
+            "/images/Project/2/image2.jpg",
+            "/images/Project/2/images3.jpg"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/bandongho-duan-05-25",
+        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus-t%C3%ADch-h%E1%BB%A3p-b%E1%BA%A3n-%C4%91%E1%BB%93-kha-thi-apxae/?trackingId=Zz9L4BPVSR6NnFRp2K%2BTPg%3D%3D"
+    },
+    {
+        "id": 3,
+        "name": "Portfolio Cá Nhân",
+        "context": "Website giới thiệu bản thân và các dự án.",
+        "date": "2024",
+        "tags": [
+            "Next.js",
+            "TailwindCSS"
+        ],
+        "images": [
+            "/images/home/duantotnghiep.jpg",
+            "/images/home/demo2.jpg"
+        ]
+    }
+]
