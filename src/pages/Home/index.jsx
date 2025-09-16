@@ -112,8 +112,8 @@ export default function Home() {
                     viewport={{ once: false }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className=" lg:ml-0 flex justify-start flex-col ">
-                    <span className="w-[20rem]"><Heading text="Kết quả học tập" left={false} /> </span>
-                    <p className="text-xl lg:text-4xl text-left animate-shine text-[#dadadae8] bg-clip-text inline-block"
+                    <span className="lg:w-[20rem] w-screen p-3"><Heading text="Kết quả học tập" left={false} /> </span>
+                    <p className="text-xl lg:text-4xl p-3 text-left  animate-shine text-[#dadadae8] bg-clip-text inline-block"
                         style={{
                             backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
                             backgroundSize: '200% 100%',
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
 
-            <div className="overflow-x-hidden w-[20rem] lg:min-w-[50%] p-3">
+            <div className="overflow-x-hidden w-screen lg:min-w-[50%] p-3">
                 <motion.div
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}

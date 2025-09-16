@@ -6,7 +6,7 @@ export default function OverView({ total = "20", title = "Tín chỉ", context =
       bg-[radial-gradient(circle_at_bottom_left,rgba(236,72,153,0.25),transparent_90%)]
       p-5 
       lg:w-[18rem] lg:h-[16rem]
-      w-[20rem] h-auto gap-5
+      w-[100%] h-auto gap-5
       flex flex-col  justify-between
       lg:hover:scale-[1.02] transition-all duration-300  
       hover:shadow-lg hover:shadow-pink-500/20

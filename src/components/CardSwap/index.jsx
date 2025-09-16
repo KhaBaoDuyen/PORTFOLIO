@@ -10,7 +10,6 @@ export function CardProject1({ title, img, context }) {
       lg:pt-10 lg:pb-10 lg:pl-10
       pt-5 pb-5 pl-5
       lg:w-[40vw] lg:h-[40vw]
-      h-[20rem] w-[20rem]
       flex flex-col  lg:gap-5 gap-3
       hover:scale-[1.02] transition-all duration-300
       hover:shadow-lg hover:shadow-pink-500/20
@@ -35,7 +34,6 @@ export function CardProject2({ title, img, context }) {
       lg:p-10 p-5 
       !pb-0
       lg:w-[40vw] lg:h-[40vw]
-      h-[20rem] w-[20rem]
       flex flex-col  lg:gap-5 gap-2
       hover:scale-[1.02] transition-all duration-300
       hover:shadow-lg hover:shadow-pink-500/20

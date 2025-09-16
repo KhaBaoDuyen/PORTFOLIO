@@ -232,42 +232,47 @@ export default function About() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="lg:container mx-auto flex justify-center items-center">
-                <div className="w-full flex flex-col items-center">
+                <div className="w-full flex flex-col text-center items-center justify-center">
                     <Heading text="Nguyên tắc Phát triển”" />
-                    <p className="text-gray-400">Đối với tôi 3 giá trị cố lỗi để tôi phát triễn & làm việc mỗi ngày dựa vào</p>
+                    <p className="text-gray-400 ">Đối với tôi 3 giá trị cố lỗi để tôi phát triễn & làm việc mỗi ngày dựa vào</p>
                     <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 mt-10">
 
                         <div className="bg-white/20 rounded-xl backdrop-blur-lg p-2 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,105,180,0.6)]">
-                            <div className="bg-black/90 flex flex-col gap-2 p-3 rounded-xl">
+                            <div className="bg-black/90 items-center justify-center 
+                lg:items-start lg:justify-start flex flex-col gap-2 p-3 rounded-xl">
                                 <span className="text-white bg-pink-600 rounded-xl w-10 h-10 p-2 flex items-center justify-center transition-all duration-300 hover:brightness-125">
                                     <FiZap />
                                 </span>
                                 <strong className="text-xl text-pink-500 mt-2 mb-2">Tư duy sáng tạo</strong>
-                                <p className="text-gray-300 text-justify">
+                                <p className="text-gray-300 text-center lg:text-justify">
                                     Luôn tìm kiếm giải pháp độc đáo và hiệu quả cho mọi thử thách.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="bg-white/20 rounded-xl backdrop-blur-lg p-2 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]">
-                            <div className="bg-black/90 p-3 flex flex-col gap-2 rounded-xl">
+                        <div className="bg-white/20 rounded-xl  backdrop-blur-lg p-2 
+                        transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]">
+                            <div className="bg-black/90 items-center justify-center 
+                lg:items-start lg:justify-start p-3 flex flex-col gap-2 rounded-xl">
                                 <span className="text-white bg-pink-600 rounded-xl w-10 h-10 p-2 flex items-center justify-center transition-all duration-300 hover:brightness-125">
                                     <FiLayers />
                                 </span>
                                 <strong className="text-xl text-pink-400 mt-2 mb-2">Học hỏi không ngừng</strong>
-                                <p className="text-gray-300 text-justify">
+                                <p className="text-gray-300 text-center lg:text-justify">
                                     Sẵn sàng tiếp thu công nghệ mới và cập nhật xu hướng.
                                 </p>
                             </div>
                         </div>
 
                         <div className="bg-white/20 rounded-xl backdrop-blur-lg p-2 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]">
-                            <div className="bg-black/90 flex flex-col gap-2 p-3 rounded-xl">
+                            <div className="bg-black/90 items-center justify-center 
+                lg:items-start lg:justify-start flex flex-col gap-2 p-3 rounded-xl">
                                 <span className="text-white bg-pink-600 rounded-xl w-10 h-10 p-2 flex items-center justify-center transition-all duration-300 hover:brightness-125">
                                     <FiFileText />
                                 </span>
                                 <strong className="text-xl text-pink-400 mt-2 mb-2">Tinh thần hợp tác</strong>
-                                <p className="text-gray-300 text-justify">
+                                <p className="text-gray-300 text-center lg:text-justify">
+
                                     Làm việc nhóm hiệu quả, hỗ trợ và truyền cảm hứng cho đồng đội.
                                 </p>
                             </div>

@@ -34,7 +34,7 @@ export default function Credit() {
 
             </div>
 
-            <section className="flex flex-wrap p-3  lg:mt-[5rem] mt-[2rem] lg:container">
+            <section className="grid lg:grid-cols-3 md:grid-cols-2 grid p-3 w-screen lg:mt-[5rem] mt-[2rem] lg:container">
                 {credit.map((item, index) => (
                     <CreditCard
                         key={index}

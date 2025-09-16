@@ -24,18 +24,20 @@ export default function Landing() {
 
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(233,102,142,0.15),_transparent_70%)]"></div>
 
-        <div className="container lg:mx-auto lg:py-10 py-5 px-4">
+        <div className="container min-w-max mx-auto lg:py-10 py-5 px-4">
+          <div className="flex text-center mx-auto flex-col pt-[10rem] lg:pt-[8rem] space-y-5 z-50">
+            <span>
+              <ShinyTextArray
+                text="FRONTEND"
+                className="text-6xl lg:text-9xl text-white/60 font-bold flex"
+                speed={3}
+              />
+            </span>
 
-          <div className="flex flex-col pt-[10rem] lg:pt-[8rem] space-y-5 z-50">
-            <ShinyTextArray
-              text="FRONTEND"
-              className="text-5xl sm:text-6xl lg:text-9xl text-white/60 font-bold flex"
-              speed={3}
-            />
             <div className="ml-[1.5rem] lg:ml-[15rem]">
               <ShinyTextArray
                 text="DEVELOPER"
-                className="text-5xl sm:text-6xl lg:text-9xl font-bold flex 
+                className="text-6xl lg:text-9xl font-bold flex 
              text-transparent 
              [-webkit-text-stroke:2px_#e9668e]"
                 speed={4}
@@ -70,8 +72,8 @@ export default function Landing() {
 
         <div className="absolute bottom-[2rem] lg:bottom-[1rem] right-[2rem] lg:right-[20rem] text-left">
           <Link
-          to="/kha-thi-bao-duyen"
-          className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
+            to="/kha-thi-bao-duyen"
+            className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
             <span className="relative z-10">
               <ShinyText
                 text="Chuyển đến hồ sơ"
