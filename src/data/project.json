@@ -39,23 +39,34 @@
         "images": [
             "/images/Project/2/image1.jpg",
             "/images/Project/2/image2.jpg",
-            "/images/Project/2/images3.jpg"
+            "/images/Project/2/images3.jpg",
+            "/images/Project/2/5.png",
+            "/images/Project/2/6.png",
+            "/images/Project/2/7.png",
+            "/images/Project/2/8.png"
         ],
         "linkGit": "https://github.com/KhaBaoDuyen/bandongho-duan-05-25",
-        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus-t%C3%ADch-h%E1%BB%A3p-b%E1%BA%A3n-%C4%91%E1%BB%93-kha-thi-apxae/?trackingId=Zz9L4BPVSR6NnFRp2K%2BTPg%3D%3D"
+        "linkLinked": "https://www.linkedin.com/posts/bao-duyen-kha-thi-41622736a_website-th%C6%B0%C6%A1ng-m%E1%BA%A1i-%C4%91i%E1%BB%87n-t%E1%BB%AD-b%C3%A1n-%C4%91%E1%BB%93ng-h%E1%BB%93-h%E1%BB%97-activity-7373406725275684865-7zYC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFuDi5IBpDF76Og6RKqRTBWSGNYber6Xp3U"
     },
-    {
-        "id": 3,
-        "name": "Portfolio Cá Nhân",
-        "context": "Website giới thiệu bản thân và các dự án.",
-        "date": "2024",
-        "tags": [
-            "Next.js",
-            "TailwindCSS"
-        ],
-        "images": [
-            "/images/home/duantotnghiep.jpg",
-            "/images/home/demo2.jpg"
-        ]
-    }
+ {
+  "id": 3,
+  "name": "Xây dựng website thương mại điện tử bán mỹ phẩm, tích hợp thanh toán điện tử.",
+  "context": "Phát triển website thương mại điện tử chuyên bán mỹ phẩm, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến, gửi email xác nhận đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
+  "date": "năm 2024",
+  "tags": [
+    "Backend",
+    "FrontEnd",
+    "MySql",
+    "NodeJS"
+  ],
+  "images": [
+    "/images/Project/3/1.png",
+    "/images/Project/3/2.png",
+    "/images/Project/3/3.png",
+    "/images/Project/3/4.png",
+    "/images/Project/3/5.png"
+  ],
+  "linkGit": "https://github.com/KhaBaoDuyen/BanMyPham"
+}
+
 ]

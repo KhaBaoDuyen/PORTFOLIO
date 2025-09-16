@@ -98,7 +98,7 @@ export default function Home() {
 
                     <CardProject1
                         title="SmartBook – Đọc sách trực tuyến"
-                        img="/images/home/duantotnghiep.jpg"
+                        img="/images/home/duan4.png"
                         context="Dự án SmartBook: ứng dụng web đọc sách online, hỗ trợ danh mục, tìm kiếm và đọc sách."/>
                 </div>
             </div>
@@ -133,10 +133,10 @@ export default function Home() {
                     viewport={{ once: false }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className=" grid lg:grid-cols-2 justify-items-center grid-cols-1 gap-4 mt-10">
-                    <OverView total="9" title="Tín chỉ" context="Đã đạt được thông qua các dự án trong quá trình học tập" />
+                    <OverView total="7" title="Tín chỉ" context="Đã đạt được thông qua các dự án trong quá trình học tập" />
                     <OverView total="3.75" title="GPA" context="Điểm trung bình tích lũy trong quá trình học tập." />
-                    <OverView total="16" title="Dự án" context="Đã hoàn thành đã thực hiện trong quá trình học tập" />
-                    <OverView total="1.3" title="Năm" context="Số năm quá trình bắt đầu thựce hiện các dự án." />
+                    <OverView total="14" title="Dự án" context="Đã hoàn thành, tham gia thực hiện trong quá trình học tập" />
+                    <OverView total="1.2" title="Năm" context="Số năm quá trình bắt đầu thựce hiện các dự án." />
                 </motion.div>
             </div>
 

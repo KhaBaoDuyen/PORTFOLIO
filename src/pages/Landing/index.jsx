@@ -48,7 +48,7 @@ export default function Landing() {
           <Lanyard position={[0, 0, 10]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
         </div>
 
-        <Link
+        {/* <Link
           to="/files/CV_BaoDuyen.pdf"
           download
           className="absolute bottom-[30%] hidden 
@@ -63,7 +63,7 @@ export default function Landing() {
           <p>Download CV</p>
           <span>----</span>
           <img src="/images/home/logo-dark.png" alt="" className="w-6 lg:w-8" />
-        </Link>
+        </Link> */}
 
         <BackgroundMusic ref={musicRef} />
         <MusicButton audioRef={musicRef} />

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaChevronLeft, FaChevronRight, FaGithub, FaLinkedin, FaTimes  } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import projects from "../../data/project.json";
 export function CardProject({
@@ -8,8 +8,8 @@ export function CardProject({
     date,
     tags = [],
     images = [],
-    linkGit="",
-    linkLinked=""
+    linkGit = "",
+    linkLinked = ""
 }) {
     const [current, setCurrent] = useState(0);
     const [direction, setDirection] = useState(0);
@@ -96,42 +96,47 @@ export function CardProject({
                         </div>
                         <div className="">
                             <div className="flex flex-row gap-3">
-                                <a
-                                    href={linkGit}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center justify-start p-2
+                                {linkGit ?
+                                    <a
+                                        href={linkGit}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-start p-2
                                        h-12 w-12 hover:w-32 
                                        bg-black/40 border border-pink-500/30 
                                        hover:border-pink-500/50 
                                        hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]
                                        transition-all duration-300 
                                        rounded-full overflow-hidden group">
-                                    <FaGithub className="w-8 h-8 text-white flex-shrink-0" />
-                                    <span
-                                        className="ml-3 text-white opacity-0 
+                                        <FaGithub className="w-8 h-8 text-white flex-shrink-0" />
+                                        <span
+                                            className="ml-3 text-white opacity-0 
                                        group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap" >
-                                        Github
-                                    </span>
-                                </a>
-                                <a
-                                    href={linkLinked}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center justify-start p-2
+                                            Github
+                                        </span>
+                                    </a>
+                                    : " "}
+                                {
+                                    linkLinked ?
+                                        <a
+                                            href={linkLinked}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center justify-start p-2
                                        h-12 w-12 hover:w-32 
                                        bg-black/40 border border-pink-500/30 
                                        hover:border-pink-500/50 
                                        hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]
                                        transition-all duration-300 
                                        rounded-full overflow-hidden group">
-                                    <FaLinkedin className="w-8 h-8 text-white flex-shrink-0" />
-                                    <span
-                                        className="ml-3 text-white opacity-0 
+                                            <FaLinkedin className="w-8 h-8 text-white flex-shrink-0" />
+                                            <span
+                                                className="ml-3 text-white opacity-0 
                                        group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap" >
-                                        Linkedin
-                                    </span>
-                                </a>
+                                                Linkedin
+                                            </span>
+                                        </a> : ""}
+
                             </div>
                         </div>
                     </div>
@@ -155,59 +160,59 @@ export function CardProject({
                     )}
                 </div>
             </div>
-              <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center"
-          >
-            <button
-              onClick={() => setIsOpen(false)}
-              className="absolute top-6 right-6 text-white text-3xl hover:text-pink-400"
-            >
-              <FaTimes />
-            </button>
+            <AnimatePresence>
+                {isOpen && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center"
+                    >
+                        <button
+                            onClick={() => setIsOpen(false)}
+                            className="absolute top-6 right-6 text-white text-3xl hover:text-pink-400"
+                        >
+                            <FaTimes />
+                        </button>
 
-            <div className="relative w-[90%] h-[80%] flex items-center justify-center">
-              <AnimatePresence custom={direction} mode="wait">
-                {images.length > 0 && (
-                  <motion.img
-                    key={current}
-                    src={images[current]}
-                    custom={direction}
-                    variants={variants}
-                    initial="enter"
-                    animate="center"
-                    exit="exit"
-                    transition={{ duration: 0.6 }}
-                    className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
-                  />
-                )}
-              </AnimatePresence>
+                        <div className="relative w-[90%] h-[80%] flex items-center justify-center">
+                            <AnimatePresence custom={direction} mode="wait">
+                                {images.length > 0 && (
+                                    <motion.img
+                                        key={current}
+                                        src={images[current]}
+                                        custom={direction}
+                                        variants={variants}
+                                        initial="enter"
+                                        animate="center"
+                                        exit="exit"
+                                        transition={{ duration: 0.6 }}
+                                        className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                                    />
+                                )}
+                            </AnimatePresence>
 
-              {images.length > 1 && (
-                <>
-                  <button
-                    onClick={prevImage}
-                    className="absolute left-5 top-1/2 -translate-y-1/2 
+                            {images.length > 1 && (
+                                <>
+                                    <button
+                                        onClick={prevImage}
+                                        className="absolute left-5 top-1/2 -translate-y-1/2 
                       w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-600 transition">
-                    <FaChevronLeft className="text-white text-2xl" />
-                  </button>
-                  <button
-                    onClick={nextImage}
-                    className="absolute right-5 top-1/2 -translate-y-1/2 
+                                        <FaChevronLeft className="text-white text-2xl" />
+                                    </button>
+                                    <button
+                                        onClick={nextImage}
+                                        className="absolute right-5 top-1/2 -translate-y-1/2 
                       w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-600 transition"
-                  >
-                    <FaChevronRight className="text-white text-2xl" />
-                  </button>
-                </>
-              )}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+                                    >
+                                        <FaChevronRight className="text-white text-2xl" />
+                                    </button>
+                                </>
+                            )}
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </>
 
     );
