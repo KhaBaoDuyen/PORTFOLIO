@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 export default function Home() {
     const animationDuration = '2s';
     return <div className=" mx-auto">
-        <section className="custom-section p-3 gap-8 ">
+        <section className="custom-section w-screen p-3 gap-8 ">
             <Heading text="Bắt đầu khám phá" />
             <TextType
                 text={["Tôi là Kha Thị Bảo Duyên – Lập trình viên Front-end"]}
@@ -48,7 +48,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="custom-section p-3 gap-7 ">
+            className="custom-section w-screen p-3 gap-7 ">
             <Heading text="Công nghệ sử dụng" />
             <div className="flex flex-wrap justify-center gap-5 pb-[8vw]">
                 <BrandButton icon={<FaReact size={20} />} text="React" />
@@ -69,7 +69,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            id="ketqua" className="custom-section gap-7 p-3 ">
+            id="ketqua" className="custom-section w-screen gap-7 p-3 ">
             <Heading text="Dự án nổi bật" />
             <div className="">
                 <h1 className="text-2xl lg:text-5xl mx-auto text-center lg:w-[60%]">Một số dự án tôi đã thực hiện trong quá trình học tập. </h1>
