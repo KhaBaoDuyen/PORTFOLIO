@@ -13,7 +13,7 @@
   {
     "date": "26/04/2025",
     "title": "Xây dựng Website đấu giá XBid",
-    "tags": ["Node.js", "Fontend", "Backend", "Angular"],
+    "tags": ["Node.js", "Frontend", "Backend", "Angular"],
     "organization": "FPT Polytechnic",
     "image": "/images/TinChi/PC08750_67d7d5e6d708a111d6deac01.jpg"
   },
@@ -27,28 +27,28 @@
   {
     "date": "07/09/2024",
     "title": "Xây dựng Website bán laptop tích hợp sản phẩm biến thể, sản phẩm mua kèm & thông số kỹ thuật sản phẩm.",
-    "tags": ["PHP", "Fontend"],
+    "tags": ["PHP", "Frontend"],
     "organization": "FPT Polytechnic",
     "image": "/images/TinChi/PC08750_66c2c7258b061fcc21ff1131.jpg"
   },
   {
     "date": "23/08/2024",
     "title": "Thiết kế website kinh doanh xe ô tô tích hợp chức năng tính phí trả góp",
-    "tags": ["WordPress", "Fontend"],
+    "tags": ["WordPress", "Frontend"],
     "organization": "FPT Polytechnic",
     "image": "/images/TinChi/PC08750_66bcbbd38b061fcc21ee9410.jpg"
   },
   {
     "date": "26/08/2024",
     "title": "Xây dựng Hệ thống quản lý tải liệu tích hợp Google Drive API",
-    "tags": ["PHP", "Fontend"],
+    "tags": ["PHP", "Frontend"],
     "organization": "FPT Polytechnic",
     "image": " /images/TinChi/PC08750_66645f873fe05c6471d53cf6.jpg"
   },
   {
     "date": "22/04/2024",
     "title": "Website giối thiệu trường THPT",
-    "tags": ["Fontend", "HTML", "BOOSTRAP"],
+    "tags": ["Frontend", "HTML", "BOOSTRAP"],
     "organization": "FPT Polytechnic",
     "image": "/images/TinChi/PC08750_65f66c22672404a0f3e2dcaf (1).jpg"
   }
