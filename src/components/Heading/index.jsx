@@ -1,6 +1,6 @@
 export function Heading({ text, left = true, right = true }) {
   return (
-    <span className="flex gap-2 items-center">
+    <span className="flex w-screen gap-2 items-center">
       {left && (
         <img
           src="https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f54bb_arrow-left.svg"
