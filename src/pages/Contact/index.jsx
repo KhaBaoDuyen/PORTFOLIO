@@ -18,15 +18,15 @@ export default function Contact() {
     const onSubmit = (data) => {
         emailjs
             .send(
-                "service_siweut9",     
-                "template_8bs3m6i",    
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 {
                     from_name: data.name,
                     from_email: data.email,
                     subject: data.subject,
                     message: data.message,
                 },
-                "piRlnK1Qi-da7Cj9G" 
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             )
             .then(
                 () => {
@@ -57,7 +57,7 @@ export default function Contact() {
                 <div className="bg-black/70 relative backdrop-blur-lg rounded-2xl overflow-hidden shadow-inner lg:py-10 py-5 px-5 lg:px-20 grid lg:grid-cols-2 gap-10">
                     <img src="/images/logo/tiasang.webp" alt="" className="absolute lg:bottom-[-100%] bottom-0 -z-50" />
 
-                     <div>
+                    <div>
                         <h2 className="text-2xl font-bold mb-3">Liên Hệ Với Chúng Tôi</h2>
                         <p className="text-gray-300 mb-6">
                             Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với chúng tôi qua thông tin bên dưới hoặc gửi tin nhắn trực tiếp.
