@@ -218,7 +218,7 @@ export default function Skills() {
                                     </span>
                                     <p className="text-gray-300 text-justify">
                                         <strong className="text-xl text-pink-400">Giao tiếp: </strong>
-                                        Tôi có khả năng diễn đạt ý tưởng rõ ràng, lắng nghe tích cực và
+                                        Tôi có thể diễn đạt ý tưởng, lắng nghe tích cực và
                                         truyền đạt thông tin hiệu quả, tạo sự gắn kết trong công việc.
                                     </p>
                                 </div>
@@ -235,7 +235,6 @@ export default function Skills() {
                                     </p>
                                 </div>
 
-
                                 <div className="flex flex-col items-start gap-3 mb-2 lg:p-10 p-5 mt-5 
           rounded-2xl shadow-inner shadow-white/20">
                                     <span className="bg-pink-500 text-white p-3 rounded-lg text-2xl">
@@ -243,7 +242,7 @@ export default function Skills() {
                                     </span>
                                     <p className="text-gray-300 !text-justify">
                                         <strong className="text-xl text-pink-400 ">Quản lý thời gian: </strong>
-                                        Tôi có khả năng sắp xếp công việc hợp lý, ưu tiên nhiệm vụ quan trọng
+                                        Tôi sẽ sắp xếp công việc hợp lý, ưu tiên nhiệm vụ quan trọng
                                         và duy trì hiệu suất cao trong môi trường áp lực.
                                     </p>
                                 </div>
