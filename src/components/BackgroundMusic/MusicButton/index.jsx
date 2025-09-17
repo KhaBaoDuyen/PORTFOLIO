@@ -18,9 +18,8 @@ export default function MusicButton({ audioRef }) {
 
   return (
     <div
-      className="absolute lg:bottom-[6rem] lg:left-[5rem] bottom-5 left-2 cursor-pointer"
-      onClick={toggleMusic}
-    >
+      className="absolute top-5 left-4 cursor-pointer"
+      onClick={toggleMusic}  >
       <div className="logo-wrapper">
         <img src="/images/logo/logo-dark.png" alt="Logo" className="logo " />
         <svg viewBox="0 0 200 200" className="circle-text">

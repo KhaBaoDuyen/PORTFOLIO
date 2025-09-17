@@ -32,12 +32,13 @@ export default function Home() {
                     Đam mê tạo ra những trải nghiệm số hiện đại, trực quan và hiệu quả.
                     Tôi chuyên thiết kế giao diện người dùng, xây dựng website tối ưu hiệu suất và luôn hướng tới sự sáng tạo trong từng dự án.
                 </p>
-                <button
-                    onClick={() => {
-                        document.getElementById("ketqua")?.scrollIntoView({ behavior: "smooth" });
-                    }} className="custom-button animate-fade-in-up"  >
-                    Xem chi tiết
-                </button>
+                <a href="/CVPORPOLIO.pdf"
+                    download={"/CVPORPOLIO.pdf"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="custom-button animate-fade-in-up"  >
+                    Xem CV Online
+                </a>
 
 
                 <img

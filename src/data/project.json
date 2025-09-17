@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "name": "Xây dựng website hệ thống đặt vé xe bus tích hợp hệ thống bản đồ định vị.",
         "context": " Dự án “Hệ thống đặt vé xe bus tích hợp bản đồ định vị”  xây dựng dưới dạng một website cho phép người dùng tra cứu các tuyến xe, lựa chọn điểm đón – điểm trả, đặt vé trực tuyến và theo dõi hành trình của xe thông qua bản đồ định vị.",
@@ -48,25 +47,68 @@
         "linkGit": "https://github.com/KhaBaoDuyen/bandongho-duan-05-25",
         "linkLinked": "https://www.linkedin.com/posts/bao-duyen-kha-thi-41622736a_website-th%C6%B0%C6%A1ng-m%E1%BA%A1i-%C4%91i%E1%BB%87n-t%E1%BB%AD-b%C3%A1n-%C4%91%E1%BB%93ng-h%E1%BB%93-h%E1%BB%97-activity-7373406725275684865-7zYC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFuDi5IBpDF76Og6RKqRTBWSGNYber6Xp3U"
     },
- {
-  "id": 3,
-  "name": "Xây dựng website thương mại điện tử bán mỹ phẩm, tích hợp thanh toán điện tử.",
-  "context": "Phát triển website thương mại điện tử chuyên bán mỹ phẩm, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến, gửi email xác nhận đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
-  "date": "năm 2024",
-  "tags": [
-    "Backend",
-    "FrontEnd",
-    "MySql",
-    "NodeJS"
-  ],
-  "images": [
-    "/images/Project/3/1.png",
-    "/images/Project/3/2.png",
-    "/images/Project/3/3.png",
-    "/images/Project/3/4.png",
-    "/images/Project/3/5.png"
-  ],
-  "linkGit": "https://github.com/KhaBaoDuyen/BanMyPham"
-}
-
+    {
+        "id": 3,
+        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox.",
+        "context": "Phát triển hệ thống đặt vé xe khách trực tuyến với giao diện thân thiện, cho phép người dùng tìm kiếm tuyến đường, chọn ghế, đặt vé và thanh toán nhanh chóng. Tích hợp Mapbox tính toán khoảng cách và ước tính thời gian di chuyển, mang lại trải nghiệm trực quan và tiện lợi cho khách hàng.",
+        "date": "tháng 3 năm 2025",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS",
+            "ReactJs"
+        ],
+        "images": [
+            "/images/Project/5/1.png",
+            "/images/Project/5/2.png",
+            "/images/Project/5/3.png",
+            "/images/Project/5/4.png",
+            "/images/Project/5/5.png"
+        ],
+        "linkGit": "https://github.com/quynh0407/Website_Dat_Ve_Xe_ReactJs/tree/main/FE"
+    },
+    {
+        "id": 4,
+        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox.",
+        "context": "Xây dựng website đặt vé xe khách bằng Angular với giao diện hiện đại, hỗ trợ người dùng tìm kiếm tuyến đường, chọn ghế và thanh toán trực tuyến. Tích hợp Mapbox để tính toán quãng đường và thời gian di chuyển, mang đến trải nghiệm mượt mà và trực quan.",
+        "date": "năm 2025",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS",
+            "Angular"
+        ],
+        "images": [
+            "/images/Project/4/1.png",
+            "/images/Project/4/2.png",
+            "/images/Project/4/3.png",
+            "/images/Project/4/4.png",
+            "/images/Project/4/5.png",
+            "/images/Project/4/6.png",
+            "/images/Project/4/7.png"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/WebsiteXayDungHeThongBanVeXe_Angular-NodeJs/tree/main/FE"
+    },
+    {
+        "id": 5,
+        "name": "Xây dựng website thương mại điện tử bán mỹ phẩm, tích hợp thanh toán điện tử.",
+        "context": "Phát triển website thương mại điện tử chuyên bán mỹ phẩm, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến, gửi email xác nhận đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
+        "date": " năm 2024",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS"
+        ],
+        "images": [
+            "/images/Project/3/1.png",
+            "/images/Project/3/2.png",
+            "/images/Project/3/3.png",
+            "/images/Project/3/4.png",
+            "/images/Project/3/5.png"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/BanMyPham"
+    }
 ]

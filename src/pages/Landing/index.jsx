@@ -29,7 +29,7 @@ export default function Landing() {
             <span>
               <ShinyTextArray
                 text="FRONTEND"
-                className="text-6xl lg:text-9xl text-white/60 font-bold flex"
+                className="md:text-6xl mb:text-4xl lg:text-9xl text-white/60 font-bold flex"
                 speed={3}
               />
             </span>
@@ -37,7 +37,7 @@ export default function Landing() {
             <div className="ml-[1.5rem] lg:ml-[15rem]">
               <ShinyTextArray
                 text="DEVELOPER"
-                className="text-6xl lg:text-9xl font-bold flex 
+                className="md:text-6xl mb:text-4xl lg:text-9xl font-bold flex 
              text-transparent 
              [-webkit-text-stroke:2px_#e9668e]"
                 speed={4}
@@ -50,27 +50,13 @@ export default function Landing() {
           <Lanyard position={[0, 0, 10]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
         </div>
 
-        {/* <Link
-          to="/files/CV_BaoDuyen.pdf"
-          download
-          className="absolute bottom-[30%] hidden 
-          lg:block lg:right-[-5rem] 
-          bg-gradient-to-r from-pink-500/20 to-pink-500/10 backdrop-blur-md 
-          px-4 lg:px-6 py-2 lg:py-3 
-          border-4 border-white/70
-          rounded-tl-[10px] rounded-tr-[10px] 
-          hover:from-pink-500/30 hover:to-pink-500/20 
-          transition rotate-[270deg] flex gap-2 items-center text-sm lg:text-base 
-          shadow-[0_0_20px_rgba(236,72,153,0.6)]">
-          <p>Download CV</p>
-          <span>----</span>
-          <img src="/images/home/logo-dark.png" alt="" className="w-6 lg:w-8" />
-        </Link> */}
+
+
 
         <BackgroundMusic ref={musicRef} />
         <MusicButton audioRef={musicRef} />
 
-        <div className="absolute bottom-[2rem] lg:bottom-[1rem] right-[2rem] lg:right-[20rem] text-left">
+        <div className="absolute bottom-[0rem] lg:bottom-[1rem] right-[1rem] lg:right-[20rem] text-left">
           <Link
             to="/kha-thi-bao-duyen"
             className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
@@ -98,6 +84,22 @@ export default function Landing() {
 
           </Link>
         </div>
+        <a
+          href="/CVPORPOLIO.pdf"
+          download={"/CVPORPOLIO.pdf"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-[20%] hidden 
+          lg:block lg:right-[-3rem] 
+          bg-gradient-to-r from-pink-500/20 to-pink-500/10 backdrop-blur-md 
+          px-4 lg:px-6 py-2 lg:py-3 
+          border-4 border-white/70
+          rounded-tl-[10px] rounded-tr-[10px] 
+          hover:from-pink-500/30 hover:to-pink-500/20 
+          transition rotate-[270deg] flex gap-2 items-center text-sm lg:text-base 
+          shadow-[0_0_20px_rgba(236,72,153,0.6)]">
+          <p>Xem chi tiết CV</p>
+        </a>
       </main>
     </>
 
