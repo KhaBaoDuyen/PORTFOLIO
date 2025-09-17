@@ -36,7 +36,7 @@ export default function Footer() {
         </Link>
       </div>
 
-       <p className="text-gray-600 text-sm mt-4 md:mt-0">
+       <p className="text-gray-600 text-center text-sm mt-4 md:mt-0">
         © 2025 bởi Kha Thi Bao Duyen. Website được tạo từ ReactJS.
       </p>
     </footer>

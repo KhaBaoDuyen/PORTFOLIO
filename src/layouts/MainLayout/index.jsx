@@ -5,9 +5,9 @@ import Footer from "../../components/Footer";
 import { ButtonScrollToTop } from "../../components/ScrollToTop";
 export default function MainLayout() {
   return (
-    <div className="relative  !mx-auto ">
+    <div className="relative !mx-auto box-content">
       <Navbar />
-      <span className="mt-[7rem] flex items-center justify-center !mx-auto">
+      <span className="mt-[7rem] flex items-center  justify-center !mx-auto">
         <Outlet />
       </span>
       <CustomCursor />

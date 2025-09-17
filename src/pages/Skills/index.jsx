@@ -31,7 +31,7 @@ export default function Skills() {
 
 
     return (
-        <div className="   ">
+        <div className=" w-full">
             <motion.div
                 variants={cardVariants}
                 initial={{ opacity: 0, y: 100 }}
@@ -39,7 +39,9 @@ export default function Skills() {
                 viewport={{ once: false }}
                 transition={{ type: "spring", stiffness: 60, damping: 15 }}
                 className="flex flex-col justify-center items-center gap-5 p-3 lg:mt-[5rem] w-full mt-[2rem]">
-                <Heading text="Kỹ năng " />
+                <span>
+                     <Heading text="Kỹ năng " />
+                </span>
                 <h1 className="text-2xl font-bold lg:text-6xl"> Công nghệ sử dụng</h1>
                 <p className="text-gray-300 lg:w-[50%] text-center"> Tôi sử dụng nhiều công nghệ và công cụ hiện đại để xây dựng
                     giao diện web thân thiện, tối ưu trải nghiệm người dùng và
@@ -115,7 +117,10 @@ export default function Skills() {
                 className="rounded-xl transition transform duration-300 backdrop-blur-sm min-h-[100%] 
                 flex flex-col justify-center items-center lg:mt-[5rem] mt-[3rem] p-3"
             >
-                <Heading text="Frontend" />
+                <span>
+                    <Heading text="Frontend" />
+                </span>
+                
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Công nghệ tôi thường sử dụng
                 </h1>
@@ -132,7 +137,7 @@ export default function Skills() {
                     <SkillItem name="Angular" icon={<FaAngular />} iconPosition="left" />
                     <SkillItem name="Next.js" icon={<SiNextdotjs />} iconPosition="left" />
                     <SkillItem name="Material-UI" icon={<SiMui />} iconPosition="left" />
-                    <SkillItem name="SvelteJs" icon={<SiSvelte />} iconPosition="left" />
+                    {/* <SkillItem name="SvelteJs" icon={<SiSvelte />} iconPosition="left" /> */}
                 </div>
             </motion.div>
 
@@ -145,7 +150,10 @@ export default function Skills() {
                 className="rounded-xl transition transform duration-300 p-3 backdrop-blur-sm min-h-[100%] 
                flex flex-col justify-center items-center lg:mt-[5rem] mt-[3rem]"
             >
-                <Heading text="Backend" />
+                <span>
+                   <Heading text="Backend" /> 
+                </span>
+                
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Công nghệ tôi thường sử dụng
                 </h1>
@@ -189,27 +197,29 @@ export default function Skills() {
                 viewport={{ once: false }}
                 transition={{ type: "spring", stiffness: 60, damping: 15 }}
                 className="rounded-xl transform duration-300 backdrop-blur-sm min-h-[100%] 
-                 flex flex-col justify-center items-center lg:mt-[10rem} mt-[3rem] p-3"
+                 flex flex-col justify-center items-center lg:container mx-auto gap-5 lg:mt-[10rem} mt-[3rem] p-3"
             >
-                <Heading text="Kĩ năng mềm" />
+                <span>
+                     <Heading text="Kĩ năng mềm" />
+                </span>
+               
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Những kỹ năng mềm tôi đã rèn luyện
                 </h1>
 
-                <section className="!mx-auto p-5 min-w-[20rem] min-h-screen relative ">
+                <section className="!mx-auto p-5 w-full min-h-screen relative ">
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: false }}
                         transition={{ type: "spring", stiffness: 60, damping: 15 }}
-                        className="lg:container flex justify-center items-center"
+                        className="lg:container w-full flex justify-center items-center"
                     >
-                        <div className="border-2 bg-black/80
+                        <div className=" bg-black/80
           lg:w-[97%] backdrop-blur-lg z-[9]
           border-5 rounded-3xl p-5 border-white/30 
-          shadow-[0_0_0_5px_rgba(255,255,255,0.4)]"
-                        >
-                            <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
+          shadow-[0_0_0_5px_rgba(255,255,255,0.4)]">
+                            <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-6">
 
                                 <div className="flex flex-col items-start gap-3 mb-2 lg:p-10 p-5
             rounded-2xl shadow-inner shadow-white/20">
