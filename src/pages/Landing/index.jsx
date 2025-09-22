@@ -48,7 +48,7 @@ export default function Landing() {
         </div>
 
         <div className="hidden lg:block absolute w-[40%] lg:w-[30%] bg-white/20 top-0 right-0">
-          <Lanyard position={[0, 0, 40]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
+          <Lanyard position={[0, 0, 10]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
         </div>
 
         <BackgroundMusic ref={musicRef} />
