@@ -53,7 +53,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="custom-section w-full p-3 gap-7 ">
+                className="custom-section !w-full p-3 gap-7 ">
                 <span>
                     <Heading text="Công nghệ sử dụng" />
                 </span>
