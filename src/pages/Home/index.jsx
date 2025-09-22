@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div className=" mx-auto  box-content">
             <section className="custom-section lg:w-full w-full p-3 gap-8 ">
-                <span>
+                <span className="min-w-full">
                     <Heading text="Bắt đầu khám phá" />
                 </span>
 
