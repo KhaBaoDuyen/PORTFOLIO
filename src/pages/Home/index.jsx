@@ -13,7 +13,7 @@ export default function Home() {
     const animationDuration = '2s';
     return (
         <div className=" mx-auto  box-content">
-            <section className="custom-section lg:w-full w-screen  p-3 gap-8 ">
+            <section className="custom-section lg:w-full w-full p-3 gap-8 ">
                 <span>
                     <Heading text="Bắt đầu khám phá" />
                 </span>

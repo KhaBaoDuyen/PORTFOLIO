@@ -173,7 +173,7 @@ export default function Skills() {
                 <div className="flex flex-wrap lg:container mt-[1rem] gap-6 text-center 
         mx-auto py-5 justify-center items-center">
                     <SkillItem name="Express.js" icon={<SiExpress />} iconPosition="left" />
-                    <SkillItem name="NestJS" icon={<SiNestjs />} iconPosition="left" />
+                    {/* <SkillItem name="NestJS" icon={<SiNestjs />} iconPosition="left" /> */}
                 </div>
 
                 <h2 className="text-2xl font-semibold mt-6 text-gray-700 dark:text-gray-200">
@@ -199,7 +199,7 @@ export default function Skills() {
                 className="rounded-xl transform duration-300 backdrop-blur-sm min-h-[100%] 
                  flex flex-col justify-center items-center lg:container mx-auto gap-5 lg:mt-[10rem} mt-[3rem] p-3"
             >
-                <span>
+                <span className="min-w-full">
                      <Heading text="Kĩ năng mềm" />
                 </span>
                

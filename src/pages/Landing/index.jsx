@@ -24,12 +24,13 @@ export default function Landing() {
 
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(233,102,142,0.15),_transparent_70%)]"></div>
 
-        <div className="container min-w-max mx-auto lg:py-10 py-5 px-4">
-          <div className="flex text-center mx-auto flex-col pt-[10rem] lg:pt-[8rem] space-y-5 z-50">
+        <div className="container min-w-max border-2 h-max flex flex-row items-center justify-center
+         mx-auto lg:py-10 py-5 px-4">
+          <div className="flex text-center mx-auto flex-col pt-[15rem] lg:pt-[8rem] space-y-5 z-50">
             <span>
               <ShinyTextArray
                 text="FRONTEND"
-                className="md:text-6xl mb:text-4xl lg:text-9xl text-white/60 font-bold flex"
+                className="md:text-6xl mb:text-6xl lg:text-9xl text-white/60 font-bold flex"
                 speed={3}
               />
             </span>
@@ -37,7 +38,7 @@ export default function Landing() {
             <div className="ml-[1.5rem] lg:ml-[15rem]">
               <ShinyTextArray
                 text="DEVELOPER"
-                className="md:text-6xl mb:text-4xl lg:text-9xl font-bold flex 
+                className="md:text-6xl mb:text-6xl lg:text-9xl font-bold flex 
              text-transparent 
              [-webkit-text-stroke:2px_#e9668e]"
                 speed={4}
@@ -49,9 +50,6 @@ export default function Landing() {
         <div className="hidden lg:block absolute w-[40%] lg:w-[30%] bg-white/20 top-0 right-0">
           <Lanyard position={[0, 0, 10]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
         </div>
-
-
-
 
         <BackgroundMusic ref={musicRef} />
         <MusicButton audioRef={musicRef} />

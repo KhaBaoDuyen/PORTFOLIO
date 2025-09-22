@@ -226,7 +226,7 @@ export default function About() {
                 <img src="/images/logo/tiasang.webp" alt="" className="absolute center -z-50" />
             </section>
 
-            <section className="!mx-auto custom-section mt-[2rem] w-full relative ">
+            <section className="!mx-auto custom-section mt-[2rem] !w-full relative ">
                 <motion.div
                     initial={{ opacity: 0, y: 300 }}
                     whileInView={{ opacity: 1, y: 0 }}
