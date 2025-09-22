@@ -24,7 +24,7 @@ export default function Landing() {
 
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(233,102,142,0.15),_transparent_70%)]"></div>
 
-        <div className="container min-w-max border-2 h-max flex flex-row items-center justify-center
+        <div className="container min-w-max  h-max flex flex-row items-center justify-center
          mx-auto lg:py-10 py-5 px-4">
           <div className="flex text-center mx-auto flex-col pt-[15rem] lg:pt-[8rem] space-y-5 z-50">
             <span>
