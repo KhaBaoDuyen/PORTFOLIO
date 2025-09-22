@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 export default function Home() {
     const animationDuration = '2s';
     return (
-        <div className=" mx-auto w-full box-content">
+        <div className=" mx-auto w-screen box-content">
             <section className="custom-section lg:w-full w-full p-3 gap-8 ">
                 <span >
                     <Heading text="Bắt đầu khám phá" />
