@@ -3,9 +3,9 @@ export function Heading({ text, left = true, right = true }) {
     <span className="flex w-full items-center gap-2 justify-center">
       {left && (
         <img
-          src="https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f54bb_arrow-left.svg"
+          src="/images/logo/left.svg"
           alt="arrow-left"
-          className="badge_left w-[30px] lg:w-[12vw] max-w-[120px]"
+          className="badge_left w-[40px] lg:w-[12vw] max-w-[120px]"
         />
       )}
 
@@ -26,9 +26,9 @@ export function Heading({ text, left = true, right = true }) {
 
       {right && (
         <img
-          src="https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f54bd_arrow-right.svg"
+          src="/images/logo/right.svg"
           alt="arrow-right"
-          className="badge_right w-[30px] lg:w-[12vw] max-w-[120px]"
+          className="badge_right w-[40px] lg:w-[12vw] max-w-[120px]"
         />
       )}
     </span>

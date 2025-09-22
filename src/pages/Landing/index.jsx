@@ -12,7 +12,7 @@ export default function Landing() {
   return (
     <>
       <main className="home relative mx-auto h-screen overflow-hidden">
-        <img src="https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%202147226991.webp"
+        <img src="/images/logo/bg-landing.webp"
           loading="lazy" sizes="(max-width: 2088px) 100vw, 2088px" srcset="
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-500.webp 500w, 
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-800.png 800w, 
