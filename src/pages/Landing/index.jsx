@@ -11,7 +11,7 @@ export default function Landing() {
 
   return (
     <>
-      <main className="home relative mx-auto h-screen overflow-hidden">
+      <main className="home relative mx-auto h-screen  overflow-hidden">
         <img src="/images/logo/bg-landing.webp"
           loading="lazy" sizes="(max-width: 2088px) 100vw, 2088px" srcset="
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-500.webp 500w, 
@@ -24,7 +24,7 @@ export default function Landing() {
 
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(233,102,142,0.15),_transparent_70%)]"></div>
 
-        <div className="container min-w-max  h-max flex flex-row items-center justify-center
+        <div className="container min-w-max  h-max flex flex-row items-center justify-start
          mx-auto lg:py-10 py-5 px-4">
           <div className="flex text-center mx-auto flex-col pt-[15rem] lg:pt-[8rem] space-y-5 z-50">
             <span>
@@ -35,7 +35,7 @@ export default function Landing() {
               />
             </span>
 
-            <div className="ml-[1.5rem] lg:ml-[15rem]">
+            <div className="ml-[1.5rem] lg:ml-[7rem]">
               <ShinyTextArray
                 text="DEVELOPER"
                 className="md:text-6xl mb:text-6xl lg:text-9xl font-bold flex 
@@ -48,13 +48,13 @@ export default function Landing() {
         </div>
 
         <div className="hidden lg:block absolute w-[40%] lg:w-[30%] bg-white/20 top-0 right-0">
-          <Lanyard position={[0, 0, 10]} fov={30} gravity={[0, -20, 0]} className="mb:hidden" />
+          <Lanyard position={[0, 0, 40]} fov={30} gravity={[0, -10, 0]} className="mb:hidden" />
         </div>
 
         <BackgroundMusic ref={musicRef} />
         <MusicButton audioRef={musicRef} />
 
-        <div className="absolute bottom-[0rem] lg:bottom-[1rem] right-[1rem] lg:right-[20rem] text-left">
+        <div className="absolute bottom-[3rem] lg:bottom-[1rem] right-[1rem] lg:right-[20rem] text-left">
           <Link
             to="/kha-thi-bao-duyen"
             className="text-white px-3 lg:px-4 py-2 flex flex-col gap-2 lg:gap-4 items-left rounded-md cursor-pointer relative">
