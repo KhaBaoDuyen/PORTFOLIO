@@ -257,6 +257,7 @@ export function Projects() {
                         images={project.images}
                         linkLinked={project.linkLinked}
                         linkGit={project.linkGit}
+                        linkWeb={project.linkWeb}
                     />
                 </motion.div>
             ))}
