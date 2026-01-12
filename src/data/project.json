@@ -19,8 +19,8 @@
             "/images/Project/6/project-1.png"
         ],
         "linkGit": "https://github.com/KhaBaoDuyen/ReactVariantStore",
-        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus-t%C3%ADch-h%E1%BB%A3p-b%E1%BA%A3n-%C4%91%E1%BB%93-kha-thi-apxae/?trackingId=Zz9L4BPVSR6NnFRp2K%2BTPg%3D%3D"
-    },
+        "linkWeb": "https://react-techstore-frontend.vercel.app/"
+     },
     {
         "id": 1,
         "name": "Xây dựng website hệ thống đặt vé xe bus tích hợp hệ thống bản đồ định vị.",

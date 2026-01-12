@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaChevronLeft, FaChevronRight, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaGithub, FaLinkedin, FaTimes, FaDesktop } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import projects from "../../data/project.json";
 export function CardProject({
@@ -9,7 +9,8 @@ export function CardProject({
     tags = [],
     images = [],
     linkGit = "",
-    linkLinked = ""
+    linkLinked = "",
+    linkWeb = "",
 }) {
     const [current, setCurrent] = useState(0);
     const [direction, setDirection] = useState(0);
@@ -134,6 +135,26 @@ export function CardProject({
                                                 className="ml-3 text-white opacity-0 
                                        group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap" >
                                                 Linkedin
+                                            </span>
+                                        </a> : ""}
+                                {
+                                    linkWeb ?
+                                        <a
+                                            href={linkWeb}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center justify-start p-2
+                                       h-12 w-12 hover:w-32 
+                                       bg-black/40 border border-pink-500/30 
+                                       hover:border-pink-500/50 
+                                       hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]
+                                       transition-all duration-300 
+                                       rounded-full overflow-hidden group">
+                                            <FaDesktop className="w-8 h-8 text-white flex-shrink-0" />
+                                            <span
+                                                className="ml-3 text-white opacity-0 
+                                       group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap" >
+                                                Website
                                             </span>
                                         </a> : ""}
 
