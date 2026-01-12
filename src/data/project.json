@@ -11,12 +11,12 @@
         ],
         "images": [
             "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-1.png"
+            "/images/Project/6/project-2.png",
+            "/images/Project/6/project-3.png",
+            "/images/Project/6/project-4.png",
+            "/images/Project/6/project-5.png",
+            "/images/Project/6/project-6.png",
+            "/images/Project/6/project-7.png"
         ],
         "linkGit": "https://github.com/KhaBaoDuyen/ReactVariantStore",
         "linkWeb": "https://react-techstore-frontend.vercel.app/"
