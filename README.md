@@ -1,1 +1,1 @@
-"# PORTFOLIO" 
+Đây là không gian số cá nhân nơi tôi tổng hợp các dự án, kỹ năng và hành trình phát triển của mình với tư cách là một Front-End Developer. Đồ án này không chỉ là một trang web giới thiệu, mà còn là kết quả của việc áp dụng những công nghệ mới nhất như ReactJs và Tailwind CSS để tối ưu hóa hiệu suất và trải nghiệm người dùng.
