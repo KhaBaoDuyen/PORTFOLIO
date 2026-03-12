@@ -1,4 +1,3 @@
-import GlareHover from "../../components/GlareHover";
 import RotatingText from "../../components/RotatingText";
 import CreditCard from "../../components/CreditCard";
 import credit from "../../data/credit.json";

@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Heading } from "../../components/Heading";
 import { FaGithub, FaLinkedin, FaFacebook, FaNodeJs, FaPhp, FaUser } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
 import SkillItem from "../../components/Skills";
 import { FaReact, FaAngular, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiSass, SiTypescript, SiNextdotjs, SiMui, SiSvelte  } from "react-icons/si";
+import {
+    SiTailwindcss, SiSass, SiTypescript, SiNextdotjs, SiMui, SiExpress,
+    SiMysql, SiFirebase, SiPostman, SiFigma, SiWordpress,
+} from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiExpress, SiNestjs, SiMysql, SiFirebase, SiPostman, SiFigma, SiWordpress, } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 import { FiMessageCircle, FiUsers, FiBookOpen, FiClock } from "react-icons/fi";
 import { Link } from "react-router-dom";
@@ -40,7 +41,7 @@ export default function Skills() {
                 transition={{ type: "spring", stiffness: 60, damping: 15 }}
                 className="flex flex-col justify-center items-center gap-5 p-3 lg:mt-[5rem] w-full mt-[2rem]">
                 <span>
-                     <Heading text="Kỹ năng " />
+                    <Heading text="Kỹ năng " />
                 </span>
                 <h1 className="text-2xl font-bold lg:text-6xl"> Công nghệ sử dụng</h1>
                 <p className="text-gray-300 lg:w-[50%] text-center"> Tôi sử dụng nhiều công nghệ và công cụ hiện đại để xây dựng
@@ -49,7 +50,7 @@ export default function Skills() {
                 <div className="flex flex-row gap-3">
                     <a
                         href="https://github.com/KhaBaoDuyen"
-                        target="_blank" 
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-start p-2
                         h-12 w-12 hover:w-32 
@@ -120,7 +121,7 @@ export default function Skills() {
                 <span>
                     <Heading text="Frontend" />
                 </span>
-                
+
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Công nghệ tôi thường sử dụng
                 </h1>
@@ -151,15 +152,15 @@ export default function Skills() {
                flex flex-col justify-center items-center lg:mt-[5rem] mt-[3rem]"
             >
                 <span>
-                   <Heading text="Backend" /> 
+                    <Heading text="Backend" />
                 </span>
-                
+
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Công nghệ tôi thường sử dụng
                 </h1>
 
                 <h2 className="text-2xl font-semibold mt-[3rem] text-gray-700 dark:text-gray-200">
-                   Ngôn ngữ
+                    Ngôn ngữ
                 </h2>
                 <div className="flex flex-wrap lg:container mt-[1rem] gap-6 text-center 
         mx-auto py-5 justify-center items-center">
@@ -200,9 +201,9 @@ export default function Skills() {
                  flex flex-col justify-center items-center lg:container mx-auto gap-5 lg:mt-[10rem} mt-[3rem] p-3"
             >
                 <span className="min-w-full">
-                     <Heading text="Kĩ năng mềm" />
+                    <Heading text="Kĩ năng mềm" />
                 </span>
-               
+
                 <h1 className="lg:text-4xl text-3xl text-center font-bold">
                     Những kỹ năng mềm tôi đã rèn luyện
                 </h1>

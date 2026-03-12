@@ -1,6 +1,5 @@
- import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { Projects  } from "../../components/CardProject";
+import { Link } from "react-router-dom";
+import { Projects } from "../../components/CardProject";
 
 
 export default function Project() {
@@ -14,8 +13,8 @@ export default function Project() {
                 Một số dự án tôi đã thực hiện trong quá trình học tập.
             </p>
 
-             <Projects />
-         </div>
+            <Projects />
+        </div>
 
 
     );

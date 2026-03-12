@@ -1,12 +1,10 @@
 import TextType from "../../components/TextType";
-import DecryptedText from "../../components/DecryptedText";
-import { Heading, SubHeading } from "../../components/Heading";
+ import { Heading, } from "../../components/Heading";
 import BrandButton from "../../components/BrandButton";
 import { FaReact, FaAngular, FaGithub, FaGitAlt, FaNodeJs } from "react-icons/fa";
 import { SiNextdotjs, SiSvelte, SiTailwindcss, SiTypescript, SiFigma } from "react-icons/si";
 import { CardProject1, CardProject2, CardProject0 } from "../../components/CardSwap";
 import OverView from "../../components/Overview";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function Home() {

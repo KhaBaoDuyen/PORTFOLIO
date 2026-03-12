@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import BackgroundMusic from "../../components/BackgroundMusic";
 import Lanyard from "../../components/CardProfile";
 import { ShinyText, ShinyTextArray } from "../../components/ShinyText";
-import MusicPlayerButton from "../../components/BackgroundMusic/MusicPlayerButton";
 import MusicButton from "../../components/BackgroundMusic/MusicButton";
 
 export default function Landing() {
@@ -13,7 +12,7 @@ export default function Landing() {
     <>
       <main className="home relative mx-auto h-screen  overflow-hidden">
         <img src="/images/logo/bg-landing.webp"
-          loading="lazy" sizes="(max-width: 2088px) 100vw, 2088px" srcset="
+          loading="lazy" sizes="(max-width: 2088px) 100vw, 2088px" srcSet="
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-500.webp 500w, 
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-800.png 800w, 
           https://cdn.prod.website-files.com/67f70667bbc9554c154f545d/67f70667bbc9554c154f5647_Frame%25202147226991-p-1080.png 1080w, 
