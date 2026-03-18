@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Heading } from "../../components/Heading";
-import { FaGithub, FaLinkedin, FaFacebook, FaNodeJs, FaPhp, FaUser } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaNodeJs, FaPhp, } from "react-icons/fa";
 import { motion } from "framer-motion";
 import SkillItem from "../../components/Skills";
 import { FaReact, FaAngular, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";

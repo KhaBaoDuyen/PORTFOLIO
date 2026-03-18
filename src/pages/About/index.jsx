@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ShinyText } from "../../components/ShinyText";
 import {
-    FiUser, FiPhone, FiMail, FiCalendar, FiMapPin, FiZap,
+    FiUser, FiPhone, FiCalendar, FiMapPin, FiZap,
     FiFileText, FiLayers, FiEye, FiTarget, FiTrendingUp
 } from "react-icons/fi";
 import { Heading } from "../../components/Heading";
