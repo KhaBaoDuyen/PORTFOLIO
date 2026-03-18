@@ -1,138 +1,21 @@
 [
     {
-        "id": 1,
-        "name": "Giao diện website bán phụ kiện điện tử ",
-        "context": "Dự án “Giao diện website bán phụ kiện điện tử” là một website frontend mô phỏng hệ thống thương mại điện tử, tập trung xây dựng giao diện hiện đại và trải nghiệm người dùng. Website cho phép người dùng duyệt các sản phẩm phụ kiện điện tử như chuột, bàn phím, tai nghe, hỗ trợ tìm kiếm, lọc, xem chi tiết sản phẩm và thao tác giỏ hàng với dữ liệu mô phỏng. Giao diện được thiết kế responsive, tương thích tốt trên mobile, tablet và desktop.",
-        "date": "tháng 1 năm 2025",
+        "id": 8,
+        "name": "Thiết kế giao diện Landing Page sự kiện khuyến mãi (Mobile UI)",
+        "context": "Thiết kế giao diện landing page trên nền tảng mobile cho chiến dịch sự kiện và chương trình khuyến mãi. Giao diện được xây dựng theo hướng mobile-first, tập trung vào trải nghiệm người dùng, luồng tham gia sự kiện và tương tác nhận thưởng. Thiết kế sử dụng hình ảnh minh họa sinh động và bố cục trực quan nhằm tăng tính hấp dẫn cho chiến dịch marketing.",
+        "date": "01 năm 2026",
         "tags": [
-            "React",
-            "Mapbox",
-            "FrontEnd"
+            "UI Design",
+            "Figma",
+            "Mobile UI",
+            "Landing Page"
         ],
         "images": [
-            "/images/Project/6/project-1.png",
-            "/images/Project/6/project-2.png",
-            "/images/Project/6/project-3.png",
-            "/images/Project/6/project-4.png",
-            "/images/Project/6/project-5.png",
-            "/images/Project/6/project-6.png",
-            "/images/Project/6/project-7.png"
+            "/images/Project/8/1.png",
+            "/images/Project/8/2.png",
+            "/images/Project/8/3.png"
         ],
-        "linkGit": "https://github.com/KhaBaoDuyen/ReactVariantStore",
-        "linkWeb": "https://react-techstore-frontend.vercel.app/"
-    },
-    {
-        "id": 1,
-        "name": "Xây dựng website hệ thống đặt vé xe bus tích hợp hệ thống bản đồ định vị.",
-        "context": " Dự án “Hệ thống đặt vé xe bus tích hợp bản đồ định vị”  xây dựng dưới dạng một website cho phép người dùng tra cứu các tuyến xe, lựa chọn điểm đón – điểm trả, đặt vé trực tuyến và theo dõi hành trình của xe thông qua bản đồ định vị.",
-        "date": "tháng 8 năm 2025",
-        "tags": [
-            "React",
-            "MySql",
-            "Filament",
-            "Mapbox",
-            "FrontEnd"
-        ],
-        "images": [
-            "/images/Project/1/image1.jpg",
-            "/images/Project/1/image2.jpg",
-            "/images/Project/1/images3.jpg",
-            "/images/Project/1/images4.jpg",
-            "/images/Project/1/image5.png",
-            "/images/Project/1/image6.png",
-            "/images/Project/1/7.png",
-            "/images/Project/1/images8.png",
-            "/images/Project/1/image9.png"
-        ],
-        "linkGit": "https://github.com/khiemdang111/DATN_SUMMER_2025/tree/main/resources/js",
-        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus-t%C3%ADch-h%E1%BB%A3p-b%E1%BA%A3n-%C4%91%E1%BB%93-kha-thi-apxae/?trackingId=Zz9L4BPVSR6NnFRp2K%2BTPg%3D%3D"
-    },
-    {
-        "id": 2,
-        "name": "Xây dựng hệ thống bán đồng hồ tích hợp xuất hóa đơn điện tử dạng PDF.",
-        "context": "Phát triển website thương mại điện tử chuyên bán đồng hồ, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến và tích hợp chức năng tự động xuất hóa đơn điện tử dạng PDF sau mỗi đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
-        "date": "tháng 8 năm 2025",
-        "tags": [
-            "Next.JS",
-            "Backend",
-            "FrontEnd",
-            "MySql"
-        ],
-        "images": [
-            "/images/Project/2/image1.jpg",
-            "/images/Project/2/image2.jpg",
-            "/images/Project/2/images3.jpg",
-            "/images/Project/2/5.png",
-            "/images/Project/2/6.png",
-            "/images/Project/2/7.png",
-            "/images/Project/2/8.png"
-        ],
-        "linkGit": "https://github.com/KhaBaoDuyen/bandongho-duan-05-25",
-        "linkLinked": "https://www.linkedin.com/posts/bao-duyen-kha-thi-41622736a_website-th%C6%B0%C6%A1ng-m%E1%BA%A1i-%C4%91i%E1%BB%87n-t%E1%BB%AD-b%C3%A1n-%C4%91%E1%BB%93ng-h%E1%BB%93-h%E1%BB%97-activity-7373406725275684865-7zYC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFuDi5IBpDF76Og6RKqRTBWSGNYber6Xp3U"
-    },
-    {
-        "id": 3,
-        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox.",
-        "context": "Phát triển hệ thống đặt vé xe khách trực tuyến với giao diện thân thiện, cho phép người dùng tìm kiếm tuyến đường, chọn ghế, đặt vé và thanh toán nhanh chóng. Tích hợp Mapbox tính toán khoảng cách và ước tính thời gian di chuyển, mang lại trải nghiệm trực quan và tiện lợi cho khách hàng.",
-        "date": "tháng 3 năm 2025",
-        "tags": [
-            "Backend",
-            "FrontEnd",
-            "MySql",
-            "NodeJS",
-            "ReactJs"
-        ],
-        "images": [
-            "/images/Project/5/1.png",
-            "/images/Project/5/2.png",
-            "/images/Project/5/3.png",
-            "/images/Project/5/4.png",
-            "/images/Project/5/5.png"
-        ],
-        "linkGit": "https://github.com/quynh0407/Website_Dat_Ve_Xe_ReactJs/tree/main/FE"
-    },
-    {
-        "id": 4,
-        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox.",
-        "context": "Xây dựng website đặt vé xe khách bằng Angular với giao diện hiện đại, hỗ trợ người dùng tìm kiếm tuyến đường, chọn ghế và thanh toán trực tuyến. Tích hợp Mapbox để tính toán quãng đường và thời gian di chuyển, mang đến trải nghiệm mượt mà và trực quan.",
-        "date": "năm 2025",
-        "tags": [
-            "Backend",
-            "FrontEnd",
-            "MySql",
-            "NodeJS",
-            "Angular"
-        ],
-        "images": [
-            "/images/Project/4/1.png",
-            "/images/Project/4/2.png",
-            "/images/Project/4/3.png",
-            "/images/Project/4/4.png",
-            "/images/Project/4/5.png",
-            "/images/Project/4/6.png",
-            "/images/Project/4/7.png"
-        ],
-        "linkGit": "https://github.com/KhaBaoDuyen/WebsiteXayDungHeThongBanVeXe_Angular-NodeJs/tree/main/FE"
-    },
-    {
-        "id": 5,
-        "name": "Xây dựng website thương mại điện tử bán mỹ phẩm, tích hợp thanh toán điện tử.",
-        "context": "Phát triển website thương mại điện tử chuyên bán mỹ phẩm, hỗ trợ quản lý sản phẩm, giỏ hàng, thanh toán trực tuyến, gửi email xác nhận đơn hàng. Hệ thống đảm bảo trải nghiệm mua sắm mượt mà, dễ sử dụng, đồng thời giúp quản lý bán hàng và lưu trữ hóa đơn hiệu quả.",
-        "date": " năm 2024",
-        "tags": [
-            "Backend",
-            "FrontEnd",
-            "MySql",
-            "NodeJS"
-        ],
-        "images": [
-            "/images/Project/3/1.png",
-            "/images/Project/3/2.png",
-            "/images/Project/3/3.png",
-            "/images/Project/3/4.png",
-            "/images/Project/3/5.png"
-        ],
-        "linkGit": "https://github.com/KhaBaoDuyen/BanMyPham"
+        "linkWeb": "https://www.figma.com/proto/mw0JMKebUofftC4iYuKoZU/GIEO-QU%E1%BA%BA?node-id=3-316&p=f&t=bB4T7nzTA7w48RqK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A316"
     },
     {
         "id": 7,
@@ -155,21 +38,138 @@
         "linkWeb": "https://www.figma.com/proto/dajlTdfG8zremAnZFGhmNI/Untitled?node-id=11-98&p=f&t=vjP1SoYWq4JMWNRA-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=11%3A98"
     },
     {
-        "id": 8,
-        "name": "Thiết kế giao diện Landing Page sự kiện khuyến mãi (Mobile UI)",
-        "context": "Thiết kế giao diện landing page trên nền tảng mobile cho chiến dịch sự kiện và chương trình khuyến mãi. Giao diện được xây dựng theo hướng mobile-first, tập trung vào trải nghiệm người dùng, luồng tham gia sự kiện và tương tác nhận thưởng. Thiết kế sử dụng hình ảnh minh họa sinh động và bố cục trực quan nhằm tăng tính hấp dẫn cho chiến dịch marketing.",
-        "date": "01 năm 2026",
+        "id": 2,
+        "name": "Xây dựng hệ thống bán đồng hồ tích hợp xuất hóa đơn điện tử dạng PDF.",
+        "context": "Phát triển website thương mại điện tử bán đồng hồ với chức năng giỏ hàng, thanh toán và tự động xuất hóa đơn PDF. Xây dựng cả frontend và backend, xử lý dữ liệu đơn hàng và tối ưu trải nghiệm người dùng.",
+        "date": "tháng 8 năm 2025",
         "tags": [
-            "UI Design",
-            "Figma",
-            "Mobile UI",
-            "Landing Page"
+            "Next.JS",
+            "Backend",
+            "FrontEnd",
+            "MySql"
         ],
         "images": [
-            "/images/Project/8/1.png",
-            "/images/Project/8/2.png",
-            "/images/Project/8/3.png"
+            "/images/Project/2/image1.jpg",
+            "/images/Project/2/image2.jpg",
+            "/images/Project/2/images3.jpg",
+            "/images/Project/2/5.png",
+            "/images/Project/2/6.png",
+            "/images/Project/2/7.png",
+            "/images/Project/2/8.png"
         ],
-        "linkWeb": "https://www.figma.com/proto/mw0JMKebUofftC4iYuKoZU/GIEO-QU%E1%BA%BA?node-id=3-316&p=f&t=bB4T7nzTA7w48RqK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A316"
+        "linkGit": "https://github.com/KhaBaoDuyen/bandongho-duan-05-25",
+        "linkLinked": "https://www.linkedin.com/posts/bao-duyen-kha-thi-41622736a_website-th%C6%B0%C6%A1ng-m%E1%BA%A1i-%C4%91i%E1%BB%87n-t%E1%BB%AD-b%C3%A1n-%C4%91%E1%BB%93ng-h%E1%BB%93-h%E1%BB%97-activity-7373406725275684865-7zYC"
+    },
+    {
+        "id": 6,
+        "name": "Xây dựng website hệ thống đặt vé xe bus tích hợp hệ thống bản đồ định vị.",
+        "context": "Xây dựng hệ thống đặt vé xe cho phép tìm kiếm tuyến đường, chọn điểm đón/trả và theo dõi hành trình qua Mapbox. Tích hợp tính khoảng cách và xử lý dữ liệu người dùng.",
+        "date": "tháng 8 năm 2025",
+        "tags": [
+            "React",
+            "MySql",
+            "Filament",
+            "Mapbox",
+            "FrontEnd"
+        ],
+        "images": [
+            "/images/Project/1/image1.jpg",
+            "/images/Project/1/image2.jpg",
+            "/images/Project/1/images3.jpg",
+            "/images/Project/1/images4.jpg",
+            "/images/Project/1/image5.png",
+            "/images/Project/1/image6.png",
+            "/images/Project/1/7.png",
+            "/images/Project/1/images8.png",
+            "/images/Project/1/image9.png"
+        ],
+        "linkGit": "https://github.com/khiemdang111/DATN_SUMMER_2025/tree/main/resources/js",
+        "linkLinked": "https://www.linkedin.com/pulse/x%C3%A2y-d%E1%BB%B1ng-website-h%E1%BB%87-th%E1%BB%91ng-%C4%91%E1%BA%B7t-v%C3%A9-xe-bus"
+    },
+    {
+        "id": 3,
+        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox.",
+        "context": "Hệ thống đặt vé xe khách trực tuyến, cho phép tìm kiếm tuyến đường, chọn ghế, đặt vé và thanh toán.",
+        "date": "tháng 3 năm 2025",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS",
+            "ReactJs"
+        ],
+        "images": [
+            "/images/Project/5/1.png",
+            "/images/Project/5/2.png",
+            "/images/Project/5/3.png",
+            "/images/Project/5/4.png",
+            "/images/Project/5/5.png"
+        ],
+        "linkGit": "https://github.com/quynh0407/Website_Dat_Ve_Xe_ReactJs/tree/main/FE"
+    },
+    {
+        "id": 4,
+        "name": "Xây dựng website hệ thống đặt vé xe khách tích hợp Mapbox (Angular).",
+        "context": "Website đặt vé xe khách bằng Angular, hỗ trợ tìm tuyến, chọn ghế và thanh toán trực tuyến.",
+        "date": "năm 2025",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS",
+            "Angular"
+        ],
+        "images": [
+            "/images/Project/4/1.png",
+            "/images/Project/4/2.png",
+            "/images/Project/4/3.png",
+            "/images/Project/4/4.png",
+            "/images/Project/4/5.png",
+            "/images/Project/4/6.png",
+            "/images/Project/4/7.png"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/WebsiteXayDungHeThongBanVeXe_Angular-NodeJs/tree/main/FE"
+    },
+    {
+        "id": 1,
+        "name": "Giao diện website bán phụ kiện điện tử",
+        "context": "Website frontend mô phỏng hệ thống thương mại điện tử, hỗ trợ tìm kiếm, lọc, xem chi tiết sản phẩm và giỏ hàng.",
+        "date": "tháng 1 năm 2025",
+        "tags": [
+            "React",
+            "Mapbox",
+            "FrontEnd"
+        ],
+        "images": [
+            "/images/Project/6/project-1.png",
+            "/images/Project/6/project-2.png",
+            "/images/Project/6/project-3.png",
+            "/images/Project/6/project-4.png",
+            "/images/Project/6/project-5.png",
+            "/images/Project/6/project-6.png",
+            "/images/Project/6/project-7.png"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/ReactVariantStore",
+        "linkWeb": "https://react-techstore-frontend.vercel.app/"
+    },
+    {
+        "id": 5,
+        "name": "Xây dựng website thương mại điện tử bán mỹ phẩm, tích hợp thanh toán điện tử.",
+        "context": "Website bán mỹ phẩm với giỏ hàng, thanh toán và gửi email xác nhận đơn hàng.",
+        "date": "năm 2024",
+        "tags": [
+            "Backend",
+            "FrontEnd",
+            "MySql",
+            "NodeJS"
+        ],
+        "images": [
+            "/images/Project/3/1.png",
+            "/images/Project/3/2.png",
+            "/images/Project/3/3.png",
+            "/images/Project/3/4.png",
+            "/images/Project/3/5.png"
+        ],
+        "linkGit": "https://github.com/KhaBaoDuyen/BanMyPham"
     }
 ]

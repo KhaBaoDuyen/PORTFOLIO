@@ -1,19 +1,19 @@
 //theme
-@import "./themes/dark-light.scss";
+@use "./themes/dark-light.scss";
 
 // utils
-@import "./utils/shared.scss";
-@import "./utils/variables";
+@use "./utils/shared.scss";
+@use "./utils/variables";
 
 // layouts
-@import "./layout/font.scss";
-@import "./layout/mouse.scss";
+@use "./layout/font.scss";
+@use "./layout/mouse.scss";
 
 // components
-@import "./pages/landing.scss";
-@import "./components/MusicPlayerButton.scss";
-@import "./components/TextType.scss";
-@import "./components/CardSwap.scss";
+@use "./pages/landing.scss";
+@use "./components/MusicPlayerButton.scss";
+@use "./components/TextType.scss";
+@use "./components/CardSwap.scss";
 
 // TailwindCSS
 @tailwind base;

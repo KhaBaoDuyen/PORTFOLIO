@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className=" flex w-full lg:container justify-between items-center px-4 py-3 ">
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/images/logo/z6994431946635_dc851f1abc3a7e11d02fe92134b6cb01.jpg"
+            src="/images/home/avataCv 1.png"
             alt="avatar"
             className="rounded-full w-[50px] h-[50px] lg:w-[70px] lg:h-[70px]
           border-4 border-white/30 shadow-[0_8px_20px_rgba(244,114,182,0.6)]"
