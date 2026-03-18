@@ -40,7 +40,7 @@ export function CardProject({
         setDirection(1);
         setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     };
-
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (!isOpen || images.length <= 1) return;
         const time = setInterval(() => {

@@ -13,7 +13,7 @@ import * as THREE from 'three';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-export default function Lanyard({ position = [0, 0, 30], gravity = [0, -40, 0], fov = 20, transparent = true ,className="block" }) {
+export default function Lanyard({ position = [0, 0, 30], gravity = [0, -40, 0], fov = 20, transparent = true, className = "block" }) {
     return (
         <div className="relative z-0 w-full h-screen flex justify-center items-center transform scale-100 origin-center">
             <Canvas
@@ -51,8 +51,8 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
     myTexture.wrapS = THREE.RepeatWrapping;
     myTexture.wrapT = THREE.RepeatWrapping;
     myTexture.flipY = false;
-    myTexture.repeat.set(1, 1.3);   
-    myTexture.offset.set(0, 0);  
+    myTexture.repeat.set(1, 1.3);
+    myTexture.offset.set(0, 0);
     useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], 1]);
     useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], 1]);
     useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], 1]);
@@ -123,8 +123,14 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
                         position={[0, -1.2, -0.05]}
                         onPointerOver={() => hover(true)}
                         onPointerOut={() => hover(false)}
-                        onPointerUp={(e) => (e.target.releasePointerCapture(e.pointerId), drag(false))}
-                        onPointerDown={(e) => (e.target.setPointerCapture(e.pointerId), drag(new THREE.Vector3().copy(e.point).sub(vec.copy(card.current.translation()))))}>
+                        onPointerUp={(e) => {
+                            e.target.releasePointerCapture(e.pointerId);
+                            drag(false);
+                        }}
+                        onPointerDown={(e) => {
+                            e.target.setPointerCapture(e.pointerId);
+                            drag(new THREE.Vector3().copy(e.point).sub(vec.copy(card.current.translation())));
+                        }}>
                         <mesh geometry={nodes.card.geometry}>
                             <meshPhysicalMaterial
                                 map={myTexture}

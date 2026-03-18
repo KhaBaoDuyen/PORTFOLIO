@@ -35,7 +35,7 @@ const BackgroundMusic = forwardRef((props, ref) => {
       document.body.removeEventListener("mousemove", startOnInteraction);
       document.body.removeEventListener("touchstart", startOnInteraction);
     };
-  }, [hasStarted]);
+  }, [hasStarted, tryPlay]);
 
   return (
     <audio ref={audioRef} loop muted>

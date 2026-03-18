@@ -20,7 +20,7 @@ export default function Skills() {
         visible: { opacity: 1, y: 0 },
     };
 
-    const [isMobile, setIsMobile] = useState(false);
+    const [setIsMobile] = useState(false);
 
     const checkScreen = () => setIsMobile(window.innerWidth < 1024);
     useEffect(() => {
